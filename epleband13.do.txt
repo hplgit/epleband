@@ -8,7 +8,6 @@ __Proud Mary.__
 intro, vers, refreng, intro, vers, refreng, intro, vers m/solo, refreng,
 vers, refreng, refreng ...
 
-_Chords_:
 *intro*: `C A C A C A G F G D`;
 *vers*: `D A Bm`; *refreng*: `D`
 
@@ -48,8 +47,8 @@ Rollin', rollin', rollin' on the river
 __Kokken Tor.__
 4x vers, refreng, 2x vers, refreng, solo??, 2x vers, refreng
 
-_Chords_: *vers*: `D Bm D Bm A D F#m A`;
-*refreng*: `3x A E F#m D, A E F#m A`
+*vers*: `D Bm D Bm A D F#m A`;
+*refreng*: `3x A E F#m D`, `A E F#m A`
 
 # #ifdef LYRICS
 !bc
@@ -106,7 +105,7 @@ __Johnny B Goode.__
 intro v/Joakim, vers, refreng, vers, refreng, vers m/solo (HP), refreng,
 vers, refreng
 
-_Chords_: *vers/refreng*: `A D A E A`
+*vers/refreng*: `A D A E A`
 
 # #ifdef LYRICS
 !bc
@@ -137,7 +136,7 @@ Sayin' Johnny B Goode tonight
 __Black Magick Woman.__
 intro, vers m/solo, 2x vers m/sang, vers m/solo, vers m/sang
 
-_Chords_: `Dm Am Dm Gm Dm A Dm`
+`Dm Am Dm Gm Dm A Dm`
 
 # #ifdef LYRICS
 !bc
@@ -195,7 +194,7 @@ __Wish You Were Here.__
 intro med div solo
 
 
-_Chords_: *intro*: `2x Em G, 2x Em A, G`;
+*intro*: `2x Em G, 2x Em A, G`;
 *vers*: `C D Am G D C Am G`; *refreng*: `C D Am G C Am G`
 
 # #ifdef LYRICS
@@ -252,12 +251,10 @@ __Wonderful Tonight.__
 intro, vers, intro, vers, bro, intro, vers m/solo trompet,
 intro, vers m/solo gitar?, intro, vers, intro
 
-_Chords_:
 *intro*: `G D/F# C D G D/F# C D`;
 *vers*:
-`C D G D/F# C D C D G Bm/F# Em C D G`;
-*bro*: `Bm G Gsus Bm G Gsus Am G C-D G Gsus G D Dsus2 D C`;
-*refreng*: `Am G C-D G F G-C Bm Am G C-D G F G-C`
+`C D G D/F# C`, `D C D G Bm/F# Em C D G`;
+*bro*: `C D G Bm/F# Em C D C D G`
 
 # #ifdef LYRICS
 !bc
@@ -327,10 +324,10 @@ G       Bm/F#         Em
 __Wild Horses.__
 1x intro, vers, refreng, vers, refreng, vers m/solo, refreng
 
-_Chords_: *intro*: G Am7  G Gsus Am7 G;
-*vers*: Bm G Gsus Bm G Gsus Am G C-D G Gsus G D Dsus2 D C;
-*refreng*: Am G C-D G F G-C Bm Am G C-D G F G-C
-(ingen bro etter 2.refreng!)
+*intro*: `G Am7  G Gsus Am7 G`;
+*vers*: `Bm G Gsus`, `Bm G Gsus`, `Am G C-D`, `G Gsus G D Dsus2 D C`;
+*refreng*: `Am G C-D G F G-C`, `Bm`, `Am G C-D G F G-C`
+(NB: ingen bro etter 2.refreng!)
 
 # #ifdef LYRICS
 !bc
@@ -405,7 +402,7 @@ solo
 __Brown Sugar.__
 4x intro1, 2x intro2, vers, refreng, 1x intro2, vers, refreng, 4x intro2 m/solo, refreng, vers, refreng, deretter gjentagelse av chords i refrenget
 
-_Chords:_ *intro1*: `C-G C-Csus`; *intro2*: `Eb-Eb9-Eb C-Csus Ab Bb C`;
+_Chords:_ *intro1*: `C-G C-Csus`; *intro2*: `Eb-Eb9-Eb`, `C-Csus`, `Ab Bb C`;
 *vers*: `C F C Bb C (Bb)`; *refreng*: `G C G C`
 
 # #ifdef LYRICS
