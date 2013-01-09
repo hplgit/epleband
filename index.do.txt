@@ -6,3 +6,4 @@ TITLE: Epleband
  * "HTML m/lyrics": "https://epleband.googlecode.com/git/epleband13_lyrics.html"
  * "PDF kompakt": "https://epleband.googlecode.com/git/epleband13.pdf"
  * "PDF m/lyrics": "https://epleband.googlecode.com/git/epleband13_lyrics.pdf"
+ * "PDF kompakt for mobil": "https://epleband.googlecode.com/git/epleband13_mobil.pdf"

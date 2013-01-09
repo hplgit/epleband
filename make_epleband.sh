@@ -10,5 +10,10 @@ pdflatex epleband${year}
 mv epleband${year}.pdf epleband${year}_lyrics.pdf
 
 doconce format pdflatex epleband${year}
+doconce ptex2tex epleband${year}  -DA6PAPER
+pdflatex epleband${year}
+mv epleband${year}.pdf epleband${year}_mobil.pdf
+
+doconce format pdflatex epleband${year}
 doconce ptex2tex epleband${year}  -DA4PAPER
 pdflatex epleband${year}
