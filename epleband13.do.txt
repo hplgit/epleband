@@ -258,7 +258,6 @@ _Chords_:
 `C D G D/F# C D C D G Bm/F# Em C D G`;
 *bro*: `Bm G Gsus Bm G Gsus Am G C-D G Gsus G D Dsus2 D C`;
 *refreng*: `Am G C-D G F G-C Bm Am G C-D G F G-C`
-(NB: ingen bro etter 2.refreng!)
 
 # #ifdef LYRICS
 !bc
