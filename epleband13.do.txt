@@ -1,0 +1,383 @@
+TITLE: Epleband 19/1-2013
+# #if FORMAT in ("latex", "pdflatex")
+AUTHOR: Jan, Kristian, Erik, Joakim, Tore Magnus, Hans Petter
+# #endif
+DATE: today
+
+__Proud Mary.__
+intro, vers, refreng, intro, vers, refreng, intro, vers m/solo, refreng,
+vers, refreng, refreng ...
+
+_Chords_:
+*intro*: `C A C A C A G F G D`;
+*vers*: `D A Bm`; *refreng*: `D`
+
+# #ifdef LYRICS
+!bc
+Left a good job in the city
+Workin' for the man ev'ry night and day
+And I never lost one minute of sleepin'
+Worryin' 'bout the way things might have been
+
+Big wheel keep on turnin'
+Proud Mary keep on burnin'
+Rollin', rollin', rollin' on the river
+
+Cleaned a lot of plates in Memphis
+Pumped a lot of pain down in New Orleans
+But I never saw the good side of the city
+'Til I hitched a ride on a river boat queen
+
+Big wheel keep on turnin'
+Proud Mary keep on burnin'
+Rollin', rollin', rollin' on the river
+Rollin', rollin', rollin' on the river
+
+If you come down to the river
+Bet you gonna find some people who live
+You don't have to worry 'cause you have [if you got] no money
+People on the river are happy to give
+
+Big wheel keep on turnin'
+Proud Mary keep on burnin'
+Rollin', rollin', rollin' on the river
+Rollin', rollin', rollin' on the river
+!ec
+# #endif
+
+__Kokken Tor.__
+4x vers, refreng, 2x vers, refreng, solo??, 2x vers, refreng
+
+_Chords_: *vers*: `D Bm D Bm A D F#m A`;
+*refreng*: `3x A E F#m D, A E F#m A`
+
+# #ifdef LYRICS
+!bc
+[D]Dette hendte [Bm]meg en gang
+[D]Jeg var p? en slags [Bm]resturant
+[A]Sammen med min [D]kj?reste og hennes far, han var [F#m]sj?mann   [A]
+
+Fra samme b?t kom kokken Tor
+Og satte seg ned ved v?rt bord
+Og denne historien den handler mest om ham
+
+Da far og datter begynte ? snakke privat
+Ble jeg sittende som Tors kamerat
+Og det virket som han ikke t?lte ? v?re p? land
+
+For plutslig viste han neven sin
+Og sa "Du trenger mere disiplin"
+Og jeg mislikte sterkt hans engasjement
+
+Og Tor sa: [A]"Hei du jeg [E]elsker deg din [F#m]j?v[D]el.
+[A]Du har s? mye [E]sensuali[F#m]tet  [D]
+[A]Men snart skal du [E]f? deg en p? [F#m]try[D]net
+[A]For stygge gutter er det [E]verste som jeg [F#m]vet"  [A]
+
+Tor sa at han elsket meg
+Og Tor sa at han hatet meg
+Og jeg pr?vde ? slippe unna ?ynene hans
+
+Min kj?reste hadde nok et d?rlig instinkt
+Jeg pr?vde ? gi henne hint og vink
+Men hun og faren snakket stadig vekk uten stans
+
+Og Tor sa: "Hei du jeg elsker deg din j?vel.
+Du har s? mye sensualitet
+Men snart skal du f? deg en p? trynet
+For stygge gutter er det verste som jeg vet"
+
+Men endelig snudde faren seg og sa
+"Hvordan g?r det med dere 'a?
+Tor, du m?'kke plage guttungen med preiket ditt"
+
+Men kokken sa at vi hygget oss
+Men n? m?tte han kaste loss
+Og takk for praten det var jaggu hyggelig gitt
+
+Og jeg sa: "Hei Tor jeg synes du er en j?vel
+Du har'kke mye sensualitet
+Du burde faen meg hatt deg en p? trynet
+Men det er vel allerede alt for sent"
+!ec
+# #endif
+
+__Johnny B Goode.__
+intro v/Joakim, vers, refreng, vers, refreng, vers m/solo (HP), refreng,
+vers, refreng
+
+_Chords_: *vers/refreng*: `A D A E A`
+
+# #ifdef LYRICS
+!bc
+Way down in Louisiana down to New Orleans
+Way back up in the woods among the evergreens
+There stood a log cabin made of earth and wood
+Where lived a country boy named Johnny B. Goode
+Who never ever learned to read or write so well
+But he could play a guitar just like he's ringin' a bell
+
+He used to carry his guitar in a gunny sack
+And sit beneath the trees by the railroad track
+The engineers would see him sittin' in the shade
+Strummin' to the rhythm that the driver made
+When people passed him by they would stop and say
+Oh my that little country boy sure can play
+
+Well his mama told him one day you will be a man
+You will be the leader of a big old band
+People gonna come from miles around
+To listen to your playin' till the sun goes down
+And one day maybe your name gonna be in lights
+Sayin' Johnny B Goode tonight
+!ec
+# #endif
+
+
+__Black Magick Woman.__
+intro, vers m/solo, 2x vers m/sang, vers m/solo, vers m/sang
+
+_Chords_: `Dm Am Dm Gm Dm A Dm`
+
+# #ifdef LYRICS
+!bc
+Intro:   Dm7 (4bars)
+         G/D (4bars)
+
+[Dm7]  I got a black magic woman,
+
+I got a black magic [Am7]woman.
+
+Yes, I got a [Dm7]blac magic woman,
+
+she's got me so blind I cant [Gm7]see
+
+But she's a [Dm7]black magic woman and she's
+
+[A7]tryin' to make a devil out of [Dm7]me.
+
+
+[Dm7]Don't turn your back on me, baby.
+
+Don't turn your back on me, ba[Am7]by
+
+Yes, don't turn your [Dm7]back on me, baby,
+
+Don't mess around with your [Gm7]tricks.
+
+Don't turn your [Dm7]back on me, baby, cause you
+
+[A7]might just wake up my magic [Dm7]sticks
+
+
+solo
+
+
+You got your spell on me, baby.
+
+You got your spell on me, ba[Am7]by.
+
+Yes, you got your [Dm7]spell on me, baby
+
+Turnin' my heart into [Gm7]stone
+
+I [Dm7]need you so bad,
+
+[A7]magic woman I can't leave you a [Dm7]lone...
+!ec
+# #endif
+
+
+
+
+__Wish You Were Here.__
+1x intro, 1x intro m/solo (Joakim), 2x vers, 1x intro?, refreng,
+intro med div solo
+
+
+_Chords_: *intro*: `2x Em G, 2x Em A, G`;
+*vers*: `C D Am G D C Am G`; *refreng*: `C D Am G C Am G`
+
+# #ifdef LYRICS
+!bc
+C                           D
+So, so you think you can tell
+              AM
+Heaven from Hell
+                   G
+Blue Skies from pain
+                       D
+Can you tell a green field
+                    C
+From a cold steel rail
+                AM
+A smile from a veil
+                       G
+So you think you can tell
+
+                       C
+Did they get you to trade
+                    D
+Your heroes for ghosts
+                  AM
+Hot Ashes for trees
+                      G
+Hot air for a cool breeze
+                    D
+Cold comfort for change
+              C
+Did you exchange?
+                      AM
+A walk on part in the war
+                      G
+For a lead role in a cage
+
+
+C                              D
+How I wish, how I wish you were here
+            Am                                G
+We're just two lost souls swimming in a fish bowl
+             D
+Year after year.
+                C
+Running over the same old ground.
+                                  AM
+What have we found the same old fears
+                G
+Wish you were here...
+!ec
+# #endif
+
+__Wonderful Tonight.__
+intro, vers, intro, vers, bro, intro, vers m/solo trompet,
+intro, vers m/solo gitar?, intro, vers, intro
+
+_Chords_:
+*intro*: `G D/F# C D G D/F# C D`;
+*vers*:
+`C D G D/F# C D C D G Bm/F# Em C D G`;
+*bro*: `Bm G Gsus Bm G Gsus Am G C-D G Gsus G D Dsus2 D C`;
+*refreng*: `Am G C-D G F G-C Bm Am G C-D G F G-C`
+(NB: ingen bro etter 2.refreng!)
+
+# #ifdef LYRICS
+!bc
+   Bm         G   Gsus  Bm           G   Gsus
+    Childhood living      is easy to do
+
+   Am          G   C      D  G   Gsus        G     D  Dsus2  D  C
+    The things you wanted    I   brought them  for you
+
+   Bm         G    Gsus   Bm              G  Gsus
+    Graceless lady         you know who I am
+
+   Am          G     C       D  G  Gsus         G  D Dsus2 D
+    You know I can't let you      slide through my hands
+
+
+
+   Am     G  C      D  G         F       G  C     Bm
+    wild     horses     couldn't drag me a- way
+
+   Am        G  C      D G         F       G  C
+    wild wild   horses    couldn't drag me a- way
+
+  Bm              G      Bm             G
+    I watched you suffer   a dull aching pain
+
+  Am          C     D  G               Dsus2   C
+    now you decided     to show me the same
+
+  Bm               G      Bm      G
+    no sweet thing exits    or of stage lines
+
+  Am                  C     D   G                Dsus2  C
+    could make me feel better     or treat you unkind
+
+   Am     G  C      D  G         F       G  C     Bm
+    wild     horses     couldn't drag me a- way
+
+   Am        G  C      D G         F       G  C
+    wild wild   horses    couldn't drag me a- way
+
+solo
+
+  Bm            G           Bm            G
+    I know I've dreamed you   a sin and a lie
+
+  Am          C       D  G                       D     C
+    I have my freedom      but I don't have much time
+
+  Bm               G      Bm              G
+    Faith has been broken   tears must be cried
+
+  Am            C      D  G          D     C
+    Lets do some living     after we died
+
+  Am     C      D  G         F        C
+    wild horses     couldn't drag me away
+
+  Am         C      D  G       F              C
+    wild wild horses     we'll ride them some day
+
+  Am     C      D  G         F        C
+    wild horses     couldn't drag me away
+
+  Am         C      D  G       F              C      G
+    wild wild horses     we'll ride them some day
+!ec
+# #endif
+
+
+
+__Brown Sugar.__
+4x intro1, 2x intro2, vers, refreng, 1x intro2, vers, refreng, 4x intro2 m/solo, refreng, vers, refreng, deretter gjentagelse av chords i refrenget
+
+_Chords:_ *intro1*: `C-G C-Csus`; *intro2*: `Eb-Eb9-Eb C-Csus Ab Bb C`;
+*vers*: `C F C Bb C (Bb)`; *refreng*: `G C G C`
+
+# #ifdef LYRICS
+!bc
+C    C*    C     C*   C         C  C*  C
+Gold coast slave ship bound for cotton fields
+F    F*   F      F*      F   F* F
+Sold in a market down in New Orleans
+C       C*  C      C*        C    C* C
+Scarred old slaver know he's doin alright
+Bb                      C              Bb     G
+Hear him whip the women just around midnight
+G              C   C*       C     C* C
+Ah brown sugar how come you taste so good
+G               C    C*     C     C*   C
+Ah brown sugar, just like a young girl should
+
+
+C     C*      C    C*      C     C*   C
+Drums beating cold English blood runs hot
+F    F*     F     F*      F         F*    F
+Lady of the house wondrin where its gonna stop
+C     C*  C     C*        C     C* C
+House boy knows that he's doin  alright
+Bb                     C              Bb    G
+You should a heard him just around midnight
+G              C   C*       C     C* C
+Ah brown sugar how come you taste so good
+G               C    C*     C     C*   C
+Ah brown sugar, just like a black girl should
+
+4x intro2 m/solo
+
+C  C*       C    C*    C    C*   C
+I  bet your mama was a tent show queen
+F   F*      F  F*           F     F*  F
+And all her boyfriends were sweet sixteen
+C   C* C         C*    C         C* C
+I'm no schoolboy but I know what I  like
+Bb                         C              Bb     G
+You should have heard them just around midnight
+G              C   C*       C     C* C
+Ah brown sugar how come you taste so good
+G               C    C*     C     C*   C
+Ah brown sugar, just like a young girl should
+!ec
+# #endif
