@@ -8,8 +8,8 @@ __Proud Mary.__
 intro, vers, refreng, intro, vers, refreng, intro, vers m/solo, refreng,
 vers, refreng, refreng ...
 
-*intro*: `C A C A C A G F G D`;
-*vers*: `D A Bm`; *refreng*: `D`
+*intro*: `G E G E G E D C D A`;
+*vers*: `A E F#,`; *refreng*: `A`
 
 # #ifdef LYRICS
 !bc
@@ -45,7 +45,7 @@ Rollin', rollin', rollin' on the river
 # #endif
 
 __Kokken Tor.__
-4x vers, refreng, 2x vers, refreng, solo??, 2x vers, refreng
+4x vers, refreng, 2x vers, refreng, 2x vers, refreng
 
 *vers*: `D Bm D Bm A D F#m A`;
 *refreng*: `3x A E F#m D`, `A E F#m A`
@@ -248,8 +248,8 @@ Wish you were here...
 # #endif
 
 __Wonderful Tonight.__
-intro, vers, intro, vers, bro, intro, vers m/solo trompet,
-intro, vers m/solo gitar?, intro, vers, intro
+intro, vers, intro, vers, bro, intro, vers m/solo gitar, vers m/solo trompet,
+intro, intro, vers, intro
 
 *intro*: `G D/F# C D G D/F# C D`;
 *vers*:
@@ -400,7 +400,7 @@ solo
 
 
 __Brown Sugar.__
-4x intro1, 2x intro2, vers, refreng, 1x intro2, vers, refreng, 4x intro2 m/solo, refreng, vers, refreng, deretter gjentagelse av chords i refrenget
+4x intro1, 2x intro2, vers, refreng, 2x intro2, vers, refreng, 4x intro2 m/solo, refreng, vers, refreng, deretter gjentagelse av chords i refrenget
 
 _Chords:_ *intro1*: `C-G C-Csus`; *intro2*: `Eb-Eb9-Eb`, `C-Csus`, `Ab Bb C`;
 *vers*: `C F C Bb C (Bb)`; *refreng*: `G C G C`
