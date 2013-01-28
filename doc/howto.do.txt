@@ -292,3 +292,12 @@ Here I play an A9 in the standard barre shape on the last beat before
 moving to a D6-D7 on the 7th fret.
 # #endif
 !ec
+John can now compile a version with lyrics, gitar tabs, and his
+annotations:
+
+!bc sys
+doconce format html songs -DLYRICS -DTAB -DJohn
+!ec
+Copying the result `songs.html` to Dropbox makes it easy to sync with
+an iPhone, iPad, or similar. Just click on the file in the Dropbox app
+on the handheld device and the web browser will show the document.
