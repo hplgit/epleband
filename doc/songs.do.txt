@@ -1,0 +1,159 @@
+TITLE: Demo of flexible song documentation
+AUTHOR: Hans Petter Langtangen
+DATE: today
+
+
+# #ifdef LYRICS
+# Big title
+======= Johnny B Goode =======
+# #else
+# Compact title
+__Johnny B Goode.__
+# #endif
+intro, verse, chorus, verse, chorus, verse with solo, chorus, verse, chorus.
+
+_Chords:_ `A D A E A`
+
+# #ifdef LYRICS
+!bc
+    A
+Way down in Louisiana down to New Orleans
+Way back up in the woods among the evergreens
+      D
+There stood a log cabin made of earth and wood
+      A
+Where lived a country boy named Johnny B. Goode
+    E
+Who never ever learned to read or write so well
+             A
+But he could play a guitar just like he's ringin' a bell
+
+A      [Riff1]
+Go Go
+                [Riff1]
+Go Johnny Go Go
+                D   [Riff1]
+Go Johnny Go Go Go
+             A   [Riff1]
+Go Johnny Go Go
+                E  [Riff1]
+Go Johnny Go Go Go
+                 A
+Johnny B. Goode
+
+He used to carry his guitar in a gunny sack
+And sit beneath the trees by the railroad track
+The engineers would see him sittin' in the shade
+Strummin' to the rhythm that the driver made
+When people passed him by they would stop and say
+Oh my that little country boy sure can play
+
+Well his mama told him one day you will be a man
+You will be the leader of a big old band
+People gonna come from miles around
+To listen to your playin' till the sun goes down
+And one day maybe your name gonna be in lights
+Sayin' Johnny B Goode tonight
+!ec
+# #endif
+
+# #ifdef TAB
+===== Guitar tabs =====
+
+Tab Pro "tp.ultimate-guitar.com": "http://tp.ultimate-guitar.com/c/chuck_berry/johnny_b_goode_tab_online.html#3477d"
+
+Tab taken from URL: "http://tablaturas.buanzo.com.ar/index.php?ident=6707407"
+
+!bc
+
+Intro (NOTE: Bb!)
+
+   NC                                            Bb
+e|----------5/6-6-6-5/6-6-6-6-6-6------------------------------------|
+B|-------6--5/6-6-6-5/6-6-6-6-6-6-9-8-6-6----------------------------|
+G|---6h7--------------------------------6h7--------------------------|
+D|-8----------------------------------------8-6--8-8-8-8-8-8-8-8-----|
+A|-----------------------------------------------8-8-8-8-8-8-8-8-----|
+E|-------------------------------------------------------------------|
+
+                     Eb
+e|--------------------------------6----------------------------------|
+B|-6-----6----------------6-------6-------6-------6-------6----------|
+G|-6-7-8-6h7----8b9--8b10---8b10----8b10----8b10-----8b10------------|
+D|------------8------------------------------------------------------|
+A|-------------------------------------------------------------------|
+E|-------------------------------------------------------------------|
+
+   Bb                                        F             Eb
+e|-------------------------------------------6---9-8-6------------------------|
+B|------6-------6------6------6------6---------6-------9-8-6-6---8---6--------|
+G|-8b10---8b10----8b10---8b10---8b10---8b10------------------6h7-8---6h7-7----|
+D|-----------------------------------------------------------------8-----8----|
+A|----------------------------------------------------------------------------|
+E|----------------------------------------------------------------------------|
+
+   Bb               F
+e|------------------------------------|
+B|---6---8-6--------------------------|
+G|---6h7-8-6h7-7/---------------------|
+D|-8-----------8/---10-10-10-10-10----|
+A|------------------8--8--8--8--8-----|
+E|------------------------------------|
+
+Chorus riff:
+
+e|---------------------|
+B|-/9--9--9--11~\------|
+G|-/10-10-10-10~\------|
+D|---------------------|
+A|---------------------|
+E|---------------------|
+
+!ec
+
+FIGURE: [Johnny_B_Goode_mid_solo.png, width=900] Mid solo.
+
+# #endif
+
+# #ifdef MOVIES
+
+===== Guitar instructions =====
+
+MOVIE: [http://www.youtube.com/watch?v=vSVIsGWrvvg] Good instruction.
+
+MOVIE: [http://www.youtube.com/watch?v=4Hl4ueIk0zQ] Mostly backing riff.
+
+MOVIE: [http://www.youtube.com/watch?v=WjtpaD3g_5k] Very slow instruction, part I.
+
+MOVIE: [http://www.youtube.com/watch?v=t793lHAw33Y] Very slow instruction, part II.
+
+# The movie caption can also be left out:
+
+MOVIE: [http://www.youtube.com/watch?v=a4EDp5CxsLw]
+
+===== Performances =====
+
+MOVIE: [http://www.youtube.com/watch?v=S1i5coU-0_Q]
+
+MOVIE: [http://www.youtube.com/watch?v=dYTqzcc-WNk] Chuck Berry, John Lennon.
+
+MOVIE: [http://www.youtube.com/watch?v=5YcPtitpLkk] Chuck Berry, Julian Lennon, Keith Richards.
+
+MOVIE: [http://www.youtube.com/watch?v=I8JULmUlGDA] Original recording.
+
+MOVIE: [http://www.youtube.com/watch?v=27njFSSlLGY] Chuck Berry, 2009.
+
+MOVIE: [http://www.youtube.com/watch?v=u8wzFzhr4G8] The Beatles.
+
+MOVIE: [http://www.youtube.com/watch?v=HlPVoMHRtyg] Chuck Berry, Bruce Springsteen.
+
+MOVIE: [http://www.youtube.com/watch?v=sYtc1Me8WUg] Jeff Beck, Carlos Santana, Steve Lukather.
+
+MOVIE: [http://www.youtube.com/watch?v=q2BdQj0eSzU] Jimi Hendrix.
+
+MOVIE: [http://www.youtube.com/watch?v=BG7UL9NfP8c] Elvis.
+
+MOVIE: [http://www.youtube.com/watch?v=OA6MgIzgUj0] No need for guitars.
+
+MOVIE: [http://www.youtube.com/watch?v=LDJ7ydnOeY0] Amateur band.
+# #endif

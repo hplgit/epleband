@@ -1,5 +1,7 @@
 #!/bin/sh
 year=13
+cd 20$year
+
 doconce format html epleband${year} -DLYRICS
 mv epleband${year}.html epleband${year}_lyrics.html
 doconce format html epleband${year}
