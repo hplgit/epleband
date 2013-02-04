@@ -300,6 +300,7 @@ annotations:
 !bc sys
 doconce format html songs -DLYRICS -DTAB -DJohn
 !ec
-Copying the result `songs.html` to Dropbox makes it easy to sync with
+Copying the result `songs.html` and figure files
+to Dropbox makes it easy to sync with
 an iPhone, iPad, or similar. Just click on the file in the Dropbox app
 on the handheld device and the web browser will show the document.
