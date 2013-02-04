@@ -7,7 +7,7 @@ The Internet is full of information about a song: chords, lyrics, guitar
 tabs, YouTube instructions, YouTube performances. In addition one may have
 notes on paper. The aim of this note is to show how one can collect all
 this information in one document and compile this document in various
-versions and format to fulfill various needs.
+versions and formats to fulfill various needs.
 
 ======= Problem setting =======
 
@@ -28,8 +28,8 @@ We want to print out the song information in three ways:
 
 The song information is to be made available in the following formats:
 
- * PDF from LaTeX for printing (A4 format)
- * PDF from LaTeX for viewing on mobile devices (A6 format)
+ * PDF (from LaTeX) for printing (A4 format)
+ * PDF (from LaTeX) for viewing on phones and tablets (A6 format)
  * HTML for viewing in a web browser
 
 Three ways of organizing the information and three output formats result
@@ -56,8 +56,9 @@ formats (A4 PDF via LaTeX, A6 PDF via LaTeX, HTML). A very handy
 feature of doconce is the ability to insert if statements as part
 of the document in order to leave out lyrics, movies, etc.
 These if statements are written with syntax very close to the C and
-C++ preprocessors. We introduce three variables (corresponding to macros
-in C/C++ preprocessors), `LYRICS`, `TAB`, and `MOVIES`.
+C++ preprocessors (which should be well known to C or C++ programmers). 
+We introduce three variables (corresponding to macros
+in C and C++ preprocessors): `LYRICS`, `TAB`, and `MOVIES`.
 Lyrics are included if `LYRICS` is defined, guitar tabs are included
 if `TAB` is defined, and movies are included if `MOVIES` is defined.
 
@@ -103,7 +104,7 @@ italic (emphasized) font, and backticks to specify verbatim inline text.
 The next element of the song is the lyrics, usually with chords above.
 It is very important to typeset lyrics with chords as verbatim text,
 otherwise the chords will not match the lyrics at the right places!
-Portions of verbatim text are surrounded by lines containing `!bc`
+Blocks of verbatim text are surrounded by lines containing `!bc`
 ("begin code") and `!ec` ("end code"):
 
 !bc
@@ -137,7 +138,8 @@ Johnny B. Goode
 |ec
 !ec
 
-The next part consists of guitar tabs for the intro and the solo.
+The next part of the song document
+consists of guitar tabs for the intro and the solo.
 
 !bc
 # #ifdef TAB
@@ -172,13 +174,15 @@ E|-------------------------------------------------------------------|
 !ec
 
 We can also insert figures of scores or tabs using doconce's
-`FIGURE:` command, which is very similar to `MOVIE:`
+`FIGURE:` command:
 
 !bc
 FIGURE: [Johnny_B_Goode_mid_solo.png, width=900] Mid solo.
 !ec
 The `width` parameter specifies the width in pixels of the figure in HTML
-output. The result becomes
+output. All info about the figure must appear *on a single line*.
+The `width` parameter and the figure caption are optional. The result of
+the above `FIGURE:` command becomes
 
 FIGURE: [Johnny_B_Goode_mid_solo.png, width=900] Mid solo.
 
@@ -265,9 +269,7 @@ some more steps:
 !bc sys
 doconce format latex songs.do.txt -DLYRICS -DMOVIES
 doconce ptex2tex songs -DA4PAPER
-latex songs
-latex songs
-dvipdf songs
+pdflatex songs
 !ec
 The result is a PDF file `songs.pdf`. A6 paper can be specified by
 giving the option `-DA6PAPER` to `doconce ptex2tex`. The result
@@ -282,9 +284,9 @@ a little Python script to automate the job of producing all the documents:
 
 When such a song is played in a band, different members of the band may
 want to annotate the document with their personal notes on how they
-play. Suppose John wants to make his comments, which are of interest
+play. Suppose John wants to make some comments which are of interest
 only to him. This is easily accomplished by adding a preprocessor
-variable, say `John` and insert tests of the form
+variable, say `John`, and insert tests of the form
 
 !bc
 # #ifdef John

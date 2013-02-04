@@ -1,3 +1,7 @@
+"""
+Run doconce on howto.do.txt and produce
+various versions in various formats.
+"""
 import os, shutil
 
 output = []
@@ -27,7 +31,7 @@ for format in formats:
                 cmd = 'doconce ptex2tex %s %s' % (filename2, latex_format)
                 print cmd
                 os.system(cmd)
-                cmd = 'latex %s; latex %s; dvipdf %s' % \
+                cmd = 'pdflatex %s; pdflatex %s' % \
                       (filename2, filename2, filename2)
                 os.system(cmd)
                 output.append(' * URL: "%s.pdf"' % filename2)

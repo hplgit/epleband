@@ -71,13 +71,13 @@ Automatically generated HTML file from Doconce source
 
 
 <p>
-<center><h4>Jan 28, 2013</h4></center> <!-- date -->
+<center><h4>Feb 4, 2013</h4></center> <!-- date -->
 <p>
 <b>Summary.</b> The Internet is full of information about a song: chords, lyrics, guitar
 tabs, YouTube instructions, YouTube performances. In addition one may have
 notes on paper. The aim of this note is to show how one can collect all
 this information in one document and compile this document in various
-versions and format to fulfill various needs.
+versions and formats to fulfill various needs.
 
 <p>
 
@@ -111,8 +111,8 @@ The song information is to be made available in the following formats:
 <p>
 
 <ul>
- <li> PDF from LaTeX for printing (A4 format)</li>
- <li> PDF from LaTeX for viewing on mobile devices (A6 format)</li>
+ <li> PDF (from LaTeX) for printing (A4 format)</li>
+ <li> PDF (from LaTeX) for viewing on phones and tablets (A6 format)</li>
  <li> HTML for viewing in a web browser</li>
 </ul>
 
@@ -142,8 +142,9 @@ formats (A4 PDF via LaTeX, A6 PDF via LaTeX, HTML). A very handy
 feature of doconce is the ability to insert if statements as part
 of the document in order to leave out lyrics, movies, etc.
 These if statements are written with syntax very close to the C and
-C++ preprocessors. We introduce three variables (corresponding to macros
-in C/C++ preprocessors), <tt>LYRICS</tt>, <tt>TAB</tt>, and <tt>MOVIES</tt>.
+C++ preprocessors (which should be well known to C or C++ programmers). 
+We introduce three variables (corresponding to macros
+in C and C++ preprocessors): <tt>LYRICS</tt>, <tt>TAB</tt>, and <tt>MOVIES</tt>.
 Lyrics are included if <tt>LYRICS</tt> is defined, guitar tabs are included
 if <tt>TAB</tt> is defined, and movies are included if <tt>MOVIES</tt> is defined.
 
@@ -154,15 +155,15 @@ text editor</a>
 such as Notepad, Gedit, Emacs, or Vim:
 
 <p>
-<!-- begin verbatim block -->
-<pre>
-TITLE: Collection of songs
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">TITLE: Collection of songs
 AUTHOR: Hans Petter Langtangen
 DATE: today
-</pre>
-<! -- end verbatim block -->
-
+</pre></div>
 <p>
+
 Each song starts with a headline with the name of the song. This
 headline is big and visible if we include lyrics, but in the compact
 format (recognized as <tt>LYRICS</tt> being undefined) the headline is just a
@@ -170,9 +171,10 @@ paragraph heading. Right after comes the quick song overview in terms
 of intros, verses, chorus, etc. This expressed as follows in doconce:
 
 <p>
-<!-- begin verbatim block -->
-<pre>
-# #ifdef LYRICS
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"># #ifdef LYRICS
 # Big title
 ======= Johnny B Goode =======
 # #else
@@ -180,8 +182,8 @@ of intros, verses, chorus, etc. This expressed as follows in doconce:
 __Johnny B Goode.__
 # #endif
 intro, verse, chorus, verse, chorus, verse with solo, chorus, verse, chorus.
-</pre>
-<! -- end verbatim block -->
+</pre></div>
+<p>
 Lines starting with <tt>#</tt> are comment lines and ignored in the output.
 
 <p>
@@ -190,11 +192,12 @@ with the word "Chords:" in boldface and the chords formatted as
 verbatim (mono font) text:
 
 <p>
-<!-- begin verbatim block -->
-<pre>
-_Chords:_ `A D A E A`
-</pre>
-<! -- end verbatim block -->
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">_Chords:_ `A D A E A`
+</pre></div>
+<p>
 Doconce uses underscores to indicate boldface, asterisks to indicate
 italic (emphasized) font, and backticks to specify verbatim inline text.
 
@@ -202,13 +205,14 @@ italic (emphasized) font, and backticks to specify verbatim inline text.
 The next element of the song is the lyrics, usually with chords above.
 It is very important to typeset lyrics with chords as verbatim text,
 otherwise the chords will not match the lyrics at the right places!
-Portions of verbatim text are surrounded by lines containing <tt>!bc</tt>
+Blocks of verbatim text are surrounded by lines containing <tt>!bc</tt>
 ("begin code") and <tt>!ec</tt> ("end code"):
 
 <p>
-<!-- begin verbatim block -->
-<pre>
-# #ifdef LYRICS
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"># #ifdef LYRICS
 !bc
     A
 Way down in Louisiana down to New Orleans
@@ -220,7 +224,7 @@ Where lived a country boy named Johnny B. Goode
     E
 Who never ever learned to read or write so well
              A
-But he could play a guitar just like he's ringin' a bell
+But he could play a guitar just like he&#39;s ringin&#39; a bell
 
 A      [Riff1]
 Go Go
@@ -236,16 +240,17 @@ Go Johnny Go Go Go
 Johnny B. Goode
 # #endif
 !ec
-</pre>
-<! -- end verbatim block -->
+</pre></div>
+<p>
+
+The next part of the song document
+consists of guitar tabs for the intro and the solo.
 
 <p>
-The next part consists of guitar tabs for the intro and the solo.
 
-<p>
-<!-- begin verbatim block -->
-<pre>
-# #ifdef TAB
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"># #ifdef TAB
 
 ===== Guitar tabs =====
 
@@ -274,21 +279,23 @@ A|-------------------------------------------------------------------|
 E|-------------------------------------------------------------------|
 !ec
 # #endif
-</pre>
-<! -- end verbatim block -->
-
+</pre></div>
 <p>
+
 We can also insert figures of scores or tabs using doconce's
-<tt>FIGURE:</tt> command, which is very similar to <tt>MOVIE:</tt>
+<tt>FIGURE:</tt> command:
 
 <p>
-<!-- begin verbatim block -->
-<pre>
-FIGURE: [Johnny_B_Goode_mid_solo.png, width=900] Mid solo.
-</pre>
-<! -- end verbatim block -->
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">FIGURE: [Johnny_B_Goode_mid_solo.png, width=900] Mid solo.
+</pre></div>
+<p>
 The <tt>width</tt> parameter specifies the width in pixels of the figure in HTML
-output. The result becomes
+output. All info about the figure must appear <em>on a single line</em>.
+The <tt>width</tt> parameter and the figure caption are optional. The result of
+the above <tt>FIGURE:</tt> command becomes
 
 <p>
 
@@ -311,21 +318,23 @@ but of course not in a printed version of the song document).
 A movie is specified as follows in doconce:
 
 <p>
-<!-- begin verbatim block -->
-<pre>
-MOVIE: [http://www.youtube.com/watch?v=WjtpaD3g_5k] Very slow instruction, part I.
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">MOVIE: [http://www.youtube.com/watch?v=WjtpaD3g_5k] Very slow instruction, part I.
 
 MOVIE: [http://www.youtube.com/watch?v=t793lHAw33Y] Very slow instruction, part II.
-</pre>
-<! -- end verbatim block -->
+</pre></div>
+<p>
 That is, the keyword <tt>MOVIE:</tt> followed by the movie file or URL in brackets and then an optional movie caption. All this information must appear on <em>a single line</em> followed by a <em>blank line</em>.
 In the present example we write the following doconce code (headings
 of subsections are indicated by 5 <tt>=</tt> characters on each side of the title):
 
 <p>
-<!-- begin verbatim block -->
-<pre>
-# #ifdef MOVIES
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"># #ifdef MOVIES
 
 ===== Guitar instructions =====
 
@@ -367,10 +376,9 @@ MOVIE: [http://www.youtube.com/watch?v=OA6MgIzgUj0] No need for guitars.
 
 MOVIE: [http://www.youtube.com/watch?v=LDJ7ydnOeY0] Amateur band.
 # #endif
-</pre>
-<! -- end verbatim block -->
-
+</pre></div>
 <p>
+
 That's it! It remains to translate the doconce text to LaTeX and HTML
 and to specify how lyrics and movies are included or left out of the
 document. First we make an HTML version for the web, including lyrics
@@ -378,11 +386,12 @@ and movies. That is accomplished by running the
 Unix following command in a terminal window:
 
 <p>
-<!-- begin verbatim block  sys-->
-<pre>
-doconce format html songs.do.txt -DLYRICS -DMOVIES
-</pre>
-<! -- end verbatim block -->
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">doconce format html songs.do.txt -DLYRICS -DMOVIES
+</pre></div>
+<p>
 The name of the doconce file is <tt>songs.do.txt</tt>, and <tt>-DLYRICS</tt> means
 that we define the preprocessor variable <tt>LYRICS</tt> to be true such that
 tests of the form <tt>#ifdef LYRICS</tt> become true.
@@ -393,15 +402,14 @@ is immediately available for a web browser. LaTeX output requires
 some more steps:
 
 <p>
-<!-- begin verbatim block  sys-->
-<pre>
-doconce format latex songs.do.txt -DLYRICS -DMOVIES
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">doconce format latex songs.do.txt -DLYRICS -DMOVIES
 doconce ptex2tex songs -DA4PAPER
-latex songs
-latex songs
-dvipdf songs
-</pre>
-<! -- end verbatim block -->
+pdflatex songs
+</pre></div>
+<p>
 The result is a PDF file <tt>songs.pdf</tt>. A6 paper can be specified by
 giving the option <tt>-DA6PAPER</tt> to <tt>doconce ptex2tex</tt>. The result
 of the latter command is a plain LaTeX file named <tt>songs.tex</tt>.
@@ -411,66 +419,84 @@ It is tedious to make all the different format so we may write
 a little Python script to automate the job of producing all the documents:
 
 <p>
-<!-- begin verbatim block  pypro-->
-<pre>
-import os, shutil
 
-output = []
-file = 'songs'
-formats = ['html', 'latex']
-latex_formats = ['-DA4PAPER', '-DA6PAPER']
-prepro_variables = ['', '-DLYRICS', '-DLYRICS -DTAB -DMOVIES']
 
-for format in formats:
-    for prepro in prepro_variables:
-        if prepro == '':
-            filename = file + '_compact'
-        elif prepro == '-DLYRICS':
-            filename = file + '_lyrics'
-        else:
-            filename = file
-        if file != filename:
-            shutil.copy(file + '.do.txt', filename + '.do.txt')
-        cmd = 'doconce format %s %s %s' % (format, filename, prepro)
-        print cmd
-        os.system(cmd)  # Run command
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #BA2121; font-style: italic">&quot;&quot;&quot;</span>
+<span style="color: #BA2121; font-style: italic">Run doconce on howto.do.txt and produce</span>
+<span style="color: #BA2121; font-style: italic">various versions in various formats.</span>
+<span style="color: #BA2121; font-style: italic">&quot;&quot;&quot;</span>
+<span style="color: #008000; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">os</span><span style="color: #666666">,</span> <span style="color: #0000FF; font-weight: bold">shutil</span>
 
-        if format == 'latex':
-            for latex_format in latex_formats:
-                filename2 = filename + '_' + latex_format[2:4]
-                shutil.copy(filename + '.p.tex', filename2 + '.p.tex')
-                cmd = 'doconce ptex2tex %s %s' % (filename2, latex_format)
-                print cmd
-                os.system(cmd)
-                cmd = 'latex %s; latex %s; dvipdf %s' % \
+output <span style="color: #666666">=</span> []
+<span style="color: #008000">file</span> <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;songs&#39;</span>
+formats <span style="color: #666666">=</span> [<span style="color: #BA2121">&#39;html&#39;</span>, <span style="color: #BA2121">&#39;latex&#39;</span>]
+latex_formats <span style="color: #666666">=</span> [<span style="color: #BA2121">&#39;-DA4PAPER&#39;</span>, <span style="color: #BA2121">&#39;-DA6PAPER&#39;</span>]
+prepro_variables <span style="color: #666666">=</span> [<span style="color: #BA2121">&#39;&#39;</span>, <span style="color: #BA2121">&#39;-DLYRICS&#39;</span>, <span style="color: #BA2121">&#39;-DLYRICS -DTAB -DMOVIES&#39;</span>]
+
+<span style="color: #008000; font-weight: bold">for</span> format <span style="color: #AA22FF; font-weight: bold">in</span> formats:
+    <span style="color: #008000; font-weight: bold">for</span> prepro <span style="color: #AA22FF; font-weight: bold">in</span> prepro_variables:
+        <span style="color: #008000; font-weight: bold">if</span> prepro <span style="color: #666666">==</span> <span style="color: #BA2121">&#39;&#39;</span>:
+            filename <span style="color: #666666">=</span> <span style="color: #008000">file</span> <span style="color: #666666">+</span> <span style="color: #BA2121">&#39;_compact&#39;</span>
+        <span style="color: #008000; font-weight: bold">elif</span> prepro <span style="color: #666666">==</span> <span style="color: #BA2121">&#39;-DLYRICS&#39;</span>:
+            filename <span style="color: #666666">=</span> <span style="color: #008000">file</span> <span style="color: #666666">+</span> <span style="color: #BA2121">&#39;_lyrics&#39;</span>
+        <span style="color: #008000; font-weight: bold">else</span>:
+            filename <span style="color: #666666">=</span> <span style="color: #008000">file</span>
+        <span style="color: #008000; font-weight: bold">if</span> <span style="color: #008000">file</span> <span style="color: #666666">!=</span> filename:
+            shutil<span style="color: #666666">.</span>copy(<span style="color: #008000">file</span> <span style="color: #666666">+</span> <span style="color: #BA2121">&#39;.do.txt&#39;</span>, filename <span style="color: #666666">+</span> <span style="color: #BA2121">&#39;.do.txt&#39;</span>)
+        cmd <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;doconce format </span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121"> </span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121"> </span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121">&#39;</span> <span style="color: #666666">%</span> (format, filename, prepro)
+        <span style="color: #008000; font-weight: bold">print</span> cmd
+        os<span style="color: #666666">.</span>system(cmd)  <span style="color: #408080; font-style: italic"># Run command</span>
+
+        <span style="color: #008000; font-weight: bold">if</span> format <span style="color: #666666">==</span> <span style="color: #BA2121">&#39;latex&#39;</span>:
+            <span style="color: #008000; font-weight: bold">for</span> latex_format <span style="color: #AA22FF; font-weight: bold">in</span> latex_formats:
+                filename2 <span style="color: #666666">=</span> filename <span style="color: #666666">+</span> <span style="color: #BA2121">&#39;_&#39;</span> <span style="color: #666666">+</span> latex_format[<span style="color: #666666">2</span>:<span style="color: #666666">4</span>]
+                shutil<span style="color: #666666">.</span>copy(filename <span style="color: #666666">+</span> <span style="color: #BA2121">&#39;.p.tex&#39;</span>, filename2 <span style="color: #666666">+</span> <span style="color: #BA2121">&#39;.p.tex&#39;</span>)
+                cmd <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;doconce ptex2tex </span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121"> </span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121">&#39;</span> <span style="color: #666666">%</span> (filename2, latex_format)
+                <span style="color: #008000; font-weight: bold">print</span> cmd
+                os<span style="color: #666666">.</span>system(cmd)
+                cmd <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;pdflatex </span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121">; pdflatex </span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121">&#39;</span> <span style="color: #666666">%</span> \
                       (filename2, filename2, filename2)
-                os.system(cmd)
-                output.append(' * URL: &quot;%s.pdf&quot;' % filename2)
-        elif format == 'html':
-            output.append(' * URL: &quot;%s.html&quot;' % filename)
-print '\n'.join(output)
-</pre>
-<! -- end verbatim block -->
-
+                os<span style="color: #666666">.</span>system(cmd)
+                output<span style="color: #666666">.</span>append(<span style="color: #BA2121">&#39; * URL: &quot;</span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121">.pdf&quot;&#39;</span> <span style="color: #666666">%</span> filename2)
+        <span style="color: #008000; font-weight: bold">elif</span> format <span style="color: #666666">==</span> <span style="color: #BA2121">&#39;html&#39;</span>:
+            output<span style="color: #666666">.</span>append(<span style="color: #BA2121">&#39; * URL: &quot;</span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121">.html&quot;&#39;</span> <span style="color: #666666">%</span> filename)
+<span style="color: #008000; font-weight: bold">print</span> <span style="color: #BA2121">&#39;</span><span style="color: #BB6622; font-weight: bold">\n</span><span style="color: #BA2121">&#39;</span><span style="color: #666666">.</span>join(output)
+</pre></div>
 <p>
+
 
 <h4>Personal comments  <a name="___sec2"></a></h4>
 <p>
 When such a song is played in a band, different members of the band may
 want to annotate the document with their personal notes on how they
-play. Suppose John wants to make his comments, which are of interest
+play. Suppose John wants to make some comments which are of interest
 only to him. This is easily accomplished by adding a preprocessor
-variable, say <tt>John</tt> and insert tests of the form
+variable, say <tt>John</tt>, and insert tests of the form
 
 <p>
-<!-- begin verbatim block -->
-<pre>
-# #ifdef John
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"># #ifdef John
 Here I play an A9 in the standard barre shape on the last beat before
 moving to a D6-D7 on the 7th fret.
 # #endif
-</pre>
-<! -- end verbatim block -->
+</pre></div>
+<p>
+John can now compile a version with lyrics, gitar tabs, and his
+annotations:
+
+<p>
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">doconce format html songs -DLYRICS -DTAB -DJohn
+</pre></div>
+<p>
+Copying the result <tt>songs.html</tt> to Dropbox makes it easy to sync with
+an iPhone, iPad, or similar. Just click on the file in the Dropbox app
+on the handheld device and the web browser will show the document.
 
 <!-- ------------------- end of main content ----------------->
 </body>
