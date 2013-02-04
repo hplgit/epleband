@@ -212,8 +212,8 @@ Blocks of verbatim text are surrounded by lines containing <tt>!bc</tt>
 
 
 <!-- code typeset with pygments style "default" -->
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"># #ifdef LYRICS
-!bc
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #BC7A00"># #ifdef LYRICS</span>
+<span style="color: #666666">|</span>bc
     A
 Way down in Louisiana down to New Orleans
 Way back up in the woods among the evergreens
@@ -238,8 +238,8 @@ Go Johnny Go Go
 Go Johnny Go Go Go
                  A
 Johnny B. Goode
-# #endif
-!ec
+<span style="color: #BC7A00"># #endif</span>
+<span style="color: #666666">|</span>ec
 </pre></div>
 <p>
 
@@ -250,35 +250,35 @@ consists of guitar tabs for the intro and the solo.
 
 
 <!-- code typeset with pygments style "default" -->
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"># #ifdef TAB
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #BC7A00"># #ifdef TAB</span>
 
-===== Guitar tabs =====
+<span style="color: #666666">=====</span> Guitar tabs <span style="color: #666666">=====</span>
 
-Tab Pro &quot;tp.ultimate-guitar.com&quot;: &quot;http://tp.ultimate-guitar.com/c/chuck_berry/johnny_b_goode_tab_online.html#3477d&quot;
+Tab Pro <span style="color: #BA2121">&quot;tp.ultimate-guitar.com&quot;</span><span style="color: #666666">:</span> <span style="color: #BA2121">&quot;http://tp.ultimate-guitar.com/c/chuck_berry/johnny_b_goode_tab_online.html#3477d&quot;</span>
 
-Tab taken from URL: &quot;http://tablaturas.buanzo.com.ar/index.php?ident=6707407&quot;
+Tab taken from URL<span style="color: #666666">:</span> <span style="color: #BA2121">&quot;http://tablaturas.buanzo.com.ar/index.php?ident=6707407&quot;</span>
 
-!bc
+<span style="color: #666666">|</span>bc
 
-Intro (NOTE: Bb!)
+Intro (NOTE<span style="color: #666666">:</span> Bb<span style="color: #666666">!</span>)
 
    NC                                            Bb
-e|----------5/6-6-6-5/6-6-6-6-6-6------------------------------------|
-B|-------6--5/6-6-6-5/6-6-6-6-6-6-9-8-6-6----------------------------|
-G|---6h7--------------------------------6h7--------------------------|
-D|-8----------------------------------------8-6--8-8-8-8-8-8-8-8-----|
-A|-----------------------------------------------8-8-8-8-8-8-8-8-----|
-E|-------------------------------------------------------------------|
+e<span style="color: #666666">|----------5/6-6-6-5/6-6-6-6-6-6------------------------------------|</span>
+B<span style="color: #666666">|-------6--5/6-6-6-5/6-6-6-6-6-6-9-8-6-6----------------------------|</span>
+G<span style="color: #666666">|---6</span>h7<span style="color: #666666">--------------------------------6</span>h7<span style="color: #666666">--------------------------|</span>
+D<span style="color: #666666">|-8----------------------------------------8-6--8-8-8-8-8-8-8-8-----|</span>
+A<span style="color: #666666">|-----------------------------------------------8-8-8-8-8-8-8-8-----|</span>
+E<span style="color: #666666">|-------------------------------------------------------------------|</span>
 
                      Eb
-e|--------------------------------6----------------------------------|
-B|-6-----6----------------6-------6-------6-------6-------6----------|
-G|-6-7-8-6h7----8b9--8b10---8b10----8b10----8b10-----8b10------------|
-D|------------8------------------------------------------------------|
-A|-------------------------------------------------------------------|
-E|-------------------------------------------------------------------|
-!ec
-# #endif
+e<span style="color: #666666">|--------------------------------6----------------------------------|</span>
+B<span style="color: #666666">|-6-----6----------------6-------6-------6-------6-------6----------|</span>
+G<span style="color: #666666">|-6-7-8-6</span>h7<span style="color: #666666">----8</span>b9<span style="color: #666666">--8</span>b10<span style="color: #666666">---8</span>b10<span style="color: #666666">----8</span>b10<span style="color: #666666">----8</span>b10<span style="color: #666666">-----8</span>b10<span style="color: #666666">------------|</span>
+D<span style="color: #666666">|------------8------------------------------------------------------|</span>
+A<span style="color: #666666">|-------------------------------------------------------------------|</span>
+E<span style="color: #666666">|-------------------------------------------------------------------|</span>
+<span style="color: #666666">|</span>ec
+<span style="color: #BC7A00"># #endif</span>
 </pre></div>
 <p>
 
@@ -289,7 +289,7 @@ We can also insert figures of scores or tabs using doconce's
 
 
 <!-- code typeset with pygments style "default" -->
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">FIGURE: [Johnny_B_Goode_mid_solo.png, width=900] Mid solo.
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #A0A000">FIGURE:</span> [Johnny_B_Goode_mid_solo.png, width<span style="color: #666666">=900</span>] Mid solo.
 </pre></div>
 <p>
 The <tt>width</tt> parameter specifies the width in pixels of the figure in HTML
@@ -321,9 +321,9 @@ A movie is specified as follows in doconce:
 
 
 <!-- code typeset with pygments style "default" -->
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">MOVIE: [http://www.youtube.com/watch?v=WjtpaD3g_5k] Very slow instruction, part I.
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=WjtpaD3g_5k] Very slow instruction, part I.</span>
 
-MOVIE: [http://www.youtube.com/watch?v=t793lHAw33Y] Very slow instruction, part II.
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=t793lHAw33Y] Very slow instruction, part II.</span>
 </pre></div>
 <p>
 That is, the keyword <tt>MOVIE:</tt> followed by the movie file or URL in brackets and then an optional movie caption. All this information must appear on <em>a single line</em> followed by a <em>blank line</em>.
@@ -334,48 +334,48 @@ of subsections are indicated by 5 <tt>=</tt> characters on each side of the titl
 
 
 <!-- code typeset with pygments style "default" -->
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"># #ifdef MOVIES
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #BC7A00"># #ifdef MOVIES</span>
 
-===== Guitar instructions =====
+<span style="color: #666666">=====</span> Guitar instructions <span style="color: #666666">=====</span>
 
-MOVIE: [http://www.youtube.com/watch?v=vSVIsGWrvvg] Good instruction.
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=vSVIsGWrvvg] Good instruction.</span>
 
-MOVIE: [http://www.youtube.com/watch?v=4Hl4ueIk0zQ] Mostly backing riff.
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=4Hl4ueIk0zQ] Mostly backing riff.</span>
 
-MOVIE: [http://www.youtube.com/watch?v=WjtpaD3g_5k] Very slow instruction, part I.
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=WjtpaD3g_5k] Very slow instruction, part I.</span>
 
-MOVIE: [http://www.youtube.com/watch?v=t793lHAw33Y] Very slow instruction, part II.
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=t793lHAw33Y] Very slow instruction, part II.</span>
 
-# The movie caption can also be left out:
+<span style="color: #BC7A00"># The movie caption can also be left out:</span>
 
-MOVIE: [http://www.youtube.com/watch?v=a4EDp5CxsLw]
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=a4EDp5CxsLw]</span>
 
-===== Performances =====
+<span style="color: #666666">=====</span> Performances <span style="color: #666666">=====</span>
 
-MOVIE: [http://www.youtube.com/watch?v=S1i5coU-0_Q]
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=S1i5coU-0_Q]</span>
 
-MOVIE: [http://www.youtube.com/watch?v=dYTqzcc-WNk] Chuck Berry, John Lennon.
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=dYTqzcc-WNk] Chuck Berry, John Lennon.</span>
 
-MOVIE: [http://www.youtube.com/watch?v=5YcPtitpLkk] Chuck Berry, Julian Lennon, Keith Richards.
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=5YcPtitpLkk] Chuck Berry, Julian Lennon, Keith Richards.</span>
 
-MOVIE: [http://www.youtube.com/watch?v=I8JULmUlGDA] Original recording.
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=I8JULmUlGDA] Original recording.</span>
 
-MOVIE: [http://www.youtube.com/watch?v=27njFSSlLGY] Chuck Berry, 2009.
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=27njFSSlLGY] Chuck Berry, 2009.</span>
 
-MOVIE: [http://www.youtube.com/watch?v=u8wzFzhr4G8] The Beatles.
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=u8wzFzhr4G8] The Beatles.</span>
 
-MOVIE: [http://www.youtube.com/watch?v=HlPVoMHRtyg] Chuck Berry, Bruce Springsteen.
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=HlPVoMHRtyg] Chuck Berry, Bruce Springsteen.</span>
 
-MOVIE: [http://www.youtube.com/watch?v=sYtc1Me8WUg] Jeff Beck, Carlos Santana, Steve Lukather.
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=sYtc1Me8WUg] Jeff Beck, Carlos Santana, Steve Lukather.</span>
 
-MOVIE: [http://www.youtube.com/watch?v=q2BdQj0eSzU] Jimi Hendrix.
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=q2BdQj0eSzU] Jimi Hendrix.</span>
 
-MOVIE: [http://www.youtube.com/watch?v=BG7UL9NfP8c] Elvis.
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=BG7UL9NfP8c] Elvis.</span>
 
-MOVIE: [http://www.youtube.com/watch?v=OA6MgIzgUj0] No need for guitars.
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=OA6MgIzgUj0] No need for guitars.</span>
 
-MOVIE: [http://www.youtube.com/watch?v=LDJ7ydnOeY0] Amateur band.
-# #endif
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=LDJ7ydnOeY0] Amateur band.</span>
+<span style="color: #BC7A00"># #endif</span>
 </pre></div>
 <p>
 
@@ -478,10 +478,10 @@ variable, say <tt>John</tt>, and insert tests of the form
 
 
 <!-- code typeset with pygments style "default" -->
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"># #ifdef John
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #BC7A00"># #ifdef John</span>
 Here I play an A9 in the standard barre shape on the last beat before
-moving to a D6-D7 on the 7th fret.
-# #endif
+moving to a D6<span style="color: #666666">-</span>D7 on the <span style="color: #666666">7</span>th fret.
+<span style="color: #BC7A00"># #endif</span>
 </pre></div>
 <p>
 John can now compile a version with lyrics, gitar tabs, and his

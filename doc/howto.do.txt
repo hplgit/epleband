@@ -107,7 +107,7 @@ otherwise the chords will not match the lyrics at the right places!
 Blocks of verbatim text are surrounded by lines containing `!bc`
 ("begin code") and `!ec` ("end code"):
 
-!bc
+!bc ccod
 # #ifdef LYRICS
 |bc
     A
@@ -141,7 +141,7 @@ Johnny B. Goode
 The next part of the song document
 consists of guitar tabs for the intro and the solo.
 
-!bc
+!bc ccod
 # #ifdef TAB
 
 ===== Guitar tabs =====
@@ -176,7 +176,7 @@ E|-------------------------------------------------------------------|
 We can also insert figures of scores or tabs using doconce's
 `FIGURE:` command:
 
-!bc
+!bc ccod
 FIGURE: [Johnny_B_Goode_mid_solo.png, width=900] Mid solo.
 !ec
 The `width` parameter specifies the width in pixels of the figure in HTML
@@ -195,7 +195,7 @@ but of course not in a printed version of the song document).
 
 A movie is specified as follows in doconce:
 
-!bc
+!bc ccod
 MOVIE: [http://www.youtube.com/watch?v=WjtpaD3g_5k] Very slow instruction, part I.
 
 MOVIE: [http://www.youtube.com/watch?v=t793lHAw33Y] Very slow instruction, part II.
@@ -204,7 +204,7 @@ That is, the keyword `MOVIE:` followed by the movie file or URL in brackets and 
 In the present example we write the following doconce code (headings
 of subsections are indicated by 5 `=` characters on each side of the title):
 
-!bc
+!bc ccod
 # #ifdef MOVIES
 
 ===== Guitar instructions =====
@@ -288,7 +288,7 @@ play. Suppose John wants to make some comments which are of interest
 only to him. This is easily accomplished by adding a preprocessor
 variable, say `John`, and insert tests of the form
 
-!bc
+!bc ccod
 # #ifdef John
 Here I play an A9 in the standard barre shape on the last beat before
 moving to a D6-D7 on the 7th fret.
