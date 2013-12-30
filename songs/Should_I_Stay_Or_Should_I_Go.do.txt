@@ -1,0 +1,80 @@
+# #ifdef LYRICS
+# Big title
+======= Should I Stay Or Should I Go? =======
+# #else
+# Compact title combined with compact info
+__Should I Stay Or Should I Go?.__
+# #endif
+
+_Chords:_ *vers*: `D Bm ...`; *refreng*: `3x A E F#m D`, `A E F#m A`
+
+# #ifdef LYRICS
+!bc
+Darling you gotta let me know
+Should I stay or should I go?
+If you say that you are mine
+I'll be here til the end of time
+So you got to let know
+Should I stay or should I go?
+
+Always tease tease tease
+You're happy when I'm on my knees
+One day is fine, next is black
+So if you want me off your back
+Well come on and let me know
+Should I stay or should I go?
+
+Should I stay or should I go now?
+Should I stay or should I go now?
+If I go there will be trouble
+An if I stay it will be double
+So come on and let me know
+
+This indecisions bugging me
+If you don't want me, set me free
+Exactly whom I'm supposed to be
+Don't you know which clothes even fit me?
+Come on and let me know
+Should I cool it or should I blow?
+
+Should I stay or should I go now?
+If I go there will be trouble
+And if I stay it will be double
+So you gotta let me know
+Should I stay or should I go?
+!ec
+# #endif
+
+# #ifdef MOVIES
+===== Movies =====
+
+MOVIE: [http://www.youtube.com/watch?v=coPB3GLpx98] Original video.
+
+MOVIE: [http://www.youtube.com/watch?v=UcL91CKyivE] Mick Jones: office party w/guitar lesson :-).
+
+MOVIE: [http://www.youtube.com/watch?v=gOK0YWh97kE] Vocal version.
+
+
+# #endif
+
+# #ifdef TAB
+===== Tab =====
+
+!bc
+DARLING YOU GOT TO LET ME NOW
+e|--2-2-2---3-3-3-3--2-----------------------------------------------|
+B|--3-3-3---3-3-3-3--3-----------------------------------------------|
+G|--2-2-2---0-0-0-0--2-----------------------------------------------|
+D|----------0-0-0-0--------------------------------------------------|
+A|----------2-2-2-2--------------------------------------------------|
+E|----------3-2-2-2--------------------------------------------------|
+SHOULD I STAY OR SHOULD I GO
+e|--2-2-2---3-3-3-3--2-----------------------------------------------|
+B|--3-3-3---3-3-3-3--3-----------------------------------------------|
+G|--2-2-2---0-0-0-0--2-----------------------------------------------|
+D|----------0-0-0-0--------------------------------------------------|
+A|----------2-2-2-2--------------------------------------------------|
+E|----------3-2-2-2--------------------------------------------------|
+!ec
+# #endif
+

@@ -1,0 +1,162 @@
+# #ifdef LYRICS
+# Big title
+======= The Fox =======
+# #else
+# Compact title combined with compact info
+__The Fox.__
+# #endif
+2x vers+refreng, bridge.
+
+_Chords:_ *vers*: `Bm A E`; *refreng*: `Bm A E`, *bridge*: 4x
+`G F#m Bm A F#m G A`.
+
+# #ifdef LYRICS
+Original: `C#m H F#`
+
+!bc
+Bm            A              E
+     Dog goes woof, cat goes meow,
+                                Bm
+Bird goes tweet, and mouse goes squeek.
+         A              E
+Cow goes moo, frog goes croak,
+                           Bm
+And the elephant goes toot.
+                 A                  E
+Ducks says quack,  And fish go blub
+
+And the seal goes ow ow ow
+Bm
+     But there's one sound
+A                    E
+     that no one knows
+
+What does the fox say?
+
+
+Bm
+Ring-ding-ding-ding-dingeringding!
+A
+Gering-ding-ding-ding-dingeringding!
+E
+Gering-ding-ding-ding-dingeringding!
+
+E
+   What the fox say
+
+Or just Bm:
+
+Wa-pa-pa-pa-pa-pa-pow!
+Wa-pa-pa-pa-pa-pa-pow!
+Wa-pa-pa-pa-pa-pa-pow!
+E
+   What the fox say
+
+Hatee-hatee-hatee-ho!
+Hatee-hatee-hatee-ho!
+Hatee-hatee-hatee-ho!
+   What the fox say
+
+Joff-tchoff-tchoffo-tchoffo-tchoff!
+Joff-tchoff-tchoffo-tchoffo-tchoff!
+Joff-tchoff-tchoffo-tchoffo-tchoff!
+   What the fox say
+
+Bm            A            E
+     Big blue eyes, pointy nose,
+                         Bm
+Chasing mice and digging holes,
+     A            E
+Tiny paws, up the hill,
+                               Bm
+Suddenly you're standing still,
+                A             E
+Your fur is red, so beautiful,
+                          Bm
+Like an angel in disguise,
+               A                 E
+But if you meet a friendly horse,
+
+Will you communicate by
+Bm            A
+mo-o-o-o-orse? Mo-o-o-o-orse?
+E
+Mo-o-o-o-orse?
+
+How will you speak to that
+Bm            A
+ho-o-o-o-orse? Ho-o-o-o-orse?
+E
+Ho-o-o-o-orse?
+What does the fox say?
+
+Jacha-chacha-chacha-chow!
+Chacha-chacha-chacha-chow!
+Chacha-chacha-chacha-chow!
+   What the fox say
+
+Fraka-kaka-kaka-kaka-kow!
+Fraka-kaka-kaka-kaka-kow!
+Fraka-kaka-kaka-kaka-kow!
+   What the fox say
+
+Ah-hee-ahee ha-hee!
+Ah-hee-ahee ha-hee!
+Ah-hee-ahee ha-hee!
+   What the fox say
+
+Ah-oo-oo-oo-ooo!
+Woo-oo-oo-ooo!
+   What does the fox say?
+
+BRIDGE/OUTRO
+
+G             F#m  Bm
+ The secret of the fox,
+              A
+Ancient mystery,
+              F#m      G
+Somewhere deep in the woods,
+               A   G
+I know you're hiding,
+       F#m     Bm
+What is your sound?
+                A
+Will we ever know?
+                 F#m   G
+Will always be a mystery
+            A  G
+What do you say?
+F#m Bm                    A
+       You're my guardian angel
+         F#m   G
+Hiding in the woods,
+       A        G
+What is your sound?
+(Abub-bub-bub-way-dum)
+         F#m        Bm
+(Abubidi-bi-bum-way-dum)
+(Abub-bub-bub-way-dum)
+               A
+Will we ever know?
+(Babeh-dih-bah-top-beh-dum)
+         F#m
+I want to...
+(Bahbeh-dum-beh-dum)
+G
+I want to...
+         A
+I want to know!
+(Ababeh-dih-bah-bum-beh-dum)
+!ec
+# #endif
+
+# #ifdef MOVIES
+===== Movies =====
+
+MOVIE: [http://www.youtube.com/watch?v=t8exPW7GMUA] The Fox + Wicked Game.
+
+MOVIE: [http://www.youtube.com/watch?v=jofNR_WkoCE] Original.
+
+# #endif
+

@@ -1,8 +1,11 @@
 TITLE: Epleband 19/1-2013
 # #if FORMAT in ("latex", "pdflatex")
-AUTHOR: Jan, Kristian, Erik, Joakim, Tore Magnus, Hans Petter
+#AUTHOR: Jan, Kristian, Erik, Joakim, Tore Magnus, Hans Petter
+AUTHOR: Hans Petter++
 # #endif
 DATE: today
+
+TOC: on
 
 # #include "../songs/Proud_Mary.do.txt"
 
@@ -19,4 +22,17 @@ DATE: today
 # #include "../songs/Wild_Horses.do.txt"
 
 # #include "../songs/Brown_Sugar.do.txt"
+
+# #include "../songs/Sensitive_Kind.do.txt"
+
+# #include "../songs/Slave.do.txt"
+
+# #include "../songs/Should_I_Stay_Or_Should_I_Go.do.txt"
+
+# #include "../songs/The_Fox.do.txt"
+
+# #include "../songs/Wicked_Game.do.txt"
+
+# #include "../songs/Back_In_The_USSR.do.txt"
+
 

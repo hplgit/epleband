@@ -1,0 +1,138 @@
+# #ifdef LYRICS
+# Big title
+======= Wicked Game =======
+# #else
+# Compact title combined with compact info
+__Wicked Game.__
+# #endif
+vers, ..
+
+_Chords:_ *vers*: `Bm A E`; *refreng*: `Bm A E`.
+
+# #ifdef LYRICS
+!bc
+Verse 1:
+Bm                         A                       E   {Fill 1}
+The world was on fire and no one could save me but you.
+Bm                            A                    E   {Fill 2}
+It's strange what desire will make foolish people do.
+Bm                     A                     E   {Fill 1}
+I never dreamed that I'd meet somebody like you.
+Bm                     A                     E   {Fill 2}
+I never dreamed that I'd love somebody like you.
+
+Chrous:
+Bm A                   E                  {Fill 1}
+I don't want to fall in love. (This world is only gonna break your heart)
+Bm A                   E                  {Fill 2}
+I don't want to fall in love. (This world is only gonna break your heart)
+         {Part 2}          {Part 2}
+With you.         With you.        (This world is only gonna break your heart)
+
+Verse 2:
+Bm             A           E                        {Fill 1}
+What a wicked game to play, to make me feel this way.
+Bm               A        E                       {Fill 2}
+What a wicked thing to do, to let me dream of you.
+Bm              A          E                        {Fill 1}
+What a wicked thing to say, you never felt this way.
+Bm              A         E                           {Fill 2}
+What a wicked thing to do, to make me dream of you and,
+
+Chrous:
+Bm A                   E                  {Fill 1}
+I don't want to fall in love. (This world is only gonna break your heart)
+Bm A                   E                  {Fill 2}
+I don't want to fall in love. (This world is only gonna break your heart)
+         {Part 1}          {Part 2}
+With you.
+
+Verse 3:
+Bm                         A                       E   {Fill 1}
+The world was on fire and no one could save me but you.
+Bm                            A                    E   {Fill 2}
+It's strange what desire will make foolish people do.
+Bm                     A                     E   {Fill 1}
+I never dreamed that I'd love somebody like you.
+Bm                     A                     E   {Fill 2}
+I never dreamed that I'd loose somebody like you no,
+
+Chrous:
+Bm A                   E                  {Fill 1}
+I don't want to fall in love. (This world is only gonna break your heart)
+Bm A                   E                  {Fill 2}
+I don't want to fall in love. (This world is only gonna break your heart)
+         {Part 2}          {Part 2}
+With you.         With you.        (This world is only gonna break your heart)
+Bm       A       E
+Nobody loves no one.
+!ec
+# #endif
+
+# #ifdef MOVIES
+===== Movies =====
+
+MOVIE: [http://www.youtube.com/watch?v=KBx1Q3DEyDY] Original.
+
+MOVIE: [http://www.youtube.com/watch?v=7V9YdG91Qag] Cover by Daughtry.
+
+MOVIE: [http://www.youtube.com/watch?v=t0KqVkaBAH8] Guitar lesson.
+
+MOVIE: [http://www.youtube.com/watch?v=naCW1ja-anU] More detailed guitar lesson.
+# #endif
+
+
+# #ifdef TAB_SOLO
+===== Tab solo guitar =====
+
+Intro:
+
+!bc
+Bm
+ (down 1/2) (back up) (slide)   ~~~  (down 1/2) (back up) (slide)
+-----------------------------------|-----------------------------------
+-0----------7---------7\\-------0--|-0----------7---------7\\-------0--
+-----------------------------------|-----------------------------------
+-----------------------------------|-----------------------------------
+-----------------------------------|-----------------------------------
+-----------------------------------|-----------------------------------
+
+
+ A                 ~~~~~~
+--------------------------|
+---5----------------------|
+--6--7-6-4-----2---1------|
+-7-----------4---2--------|
+--------------------------|
+--------------------------|
+
+
+                       ~~~~
+-2----0-----------------------------
+---3----3--2----0-------------------
+-------------4----4-2--1-----1-2-4-- o
+----------------------2----2-------- o
+------------------------------------
+------------------------------------
+!ec
+
+Verse:
+
+!bc
+Bm        A         E    (fill)
+                        ------------
+                        ------------
+                        ----2---1---
+                        --4---2-----
+                        ------------
+                        ------------
+
+Bm        A         E   (another fill)
+                        ------------
+                        ------------
+                        ----1-2-4---
+                        --2---------
+                        ------------
+                        ------------
+!ec
+# #endif

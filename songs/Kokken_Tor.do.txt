@@ -1,0 +1,150 @@
+# #ifdef LYRICS
+======= Kokken Tor =======
+# #else
+__Kokken Tor.__
+# #endif
+4x vers, refreng, 2x vers, refreng, 2x vers, refreng, refreng m/solo
+
+_Chords:_ *vers*: `D Bm D Bm A D F#m A`;
+*refreng*: `3x A E F#m D`, `A E F#m A`
+
+# #ifdef LYRICS
+!bc
+[D]Dette hendte [Bm]meg en gang
+[D]Jeg var p? en slags [Bm]resturant
+[A]Sammen med min [D]kjæreste og hennes far, han var [F#m]sjømann   [A]
+
+Fra samme båt kom kokken Tor
+Og satte seg ned ved vårt bord
+Og denne historien den handler mest om ham
+
+Da far og datter begynte å snakke privat
+Ble jeg sittende som Tors kamerat
+Og det virket som han ikke tålte å være på land
+
+For plutslig viste han neven sin
+Og sa "Du trenger mere disiplin"
+Og jeg mislikte sterkt hans engasjement
+
+Og Tor sa: [A]"Hei du jeg [E]elsker deg din [F#m]jæv[D]el.
+[A]Du har så mye [E]sensuali[F#m]tet  [D]
+[A]Men snart skal du [E]få deg en på [F#m]try[D]net
+[A]For stygge gutter er det [E]verste som jeg [F#m]vet"  [A]
+
+Tor sa at han elsket meg
+Og Tor sa at han hatet meg
+Og jeg prøvde å slippe unna øynene hans
+
+Min kjæreste hadde nok et dårlig instinkt
+Jeg prøvde å gi henne hint og vink
+Men hun og faren snakket stadig vekk uten stans
+
+Og Tor sa: "Hei du jeg elsker deg din jævel.
+Du har så mye sensualitet
+Men snart skal du få deg en på trynet
+For stygge gutter er det verste som jeg vet"
+
+Men endelig snudde faren seg og sa
+"Hvordan går det med dere 'a?
+Tor, du må'kke plage guttungen med preiket ditt"
+
+Men kokken sa at vi hygget oss
+Men nå måtte han kaste loss
+Og takk for praten det var jaggu hyggelig gitt
+
+Og jeg sa: "Hei Tor jeg synes du er en jævel
+Du har'kke mye sensualitet
+Du burde faen meg hatt deg en på trynet
+Men det er vel allerede alt for sent"
+!ec
+# #endif
+
+# #ifdef MOVIES
+===== Movies =====
+
+MOVIE: [http://www.youtube.com/watch?v=oyBjfCMQwQA] Live 1993..
+
+MOVIE: [http://www.youtube.com/watch?v=pMX6pRX7C2k] Live 2011.
+
+MOVIE: [http://www.youtube.com/watch?v=1YF8ht65-i4] Akustisk.
+# #endif
+
+# #ifdef TAB
+===== Tab =====
+
+!bc
+Riff:  E------------------------------------|
+       B------------------------------------|
+       G-------------------2----------------|
+       D--------2/4--2--4-----2/4--4--2-----|
+       A---------------------------------4--|
+       E--2--2------------------------------|
+
+       E------------------------------------|
+       B------------------------------------|
+       G-------------------2----------------|
+       D--------2/4--2--4--2----------------|
+       A-------------------0----------------|
+       E--2--2------------------------------|
+!ec
+# #endif
+
+# #ifdef TAB_SOLO
+===== Tab solo guitar =====
+
+
+!bc
+e|--------------------------------|
+b|--------------------------------|
+g|------------------6-------------|
+d|----7----7h9----9------7--------|
+a|--------------------------------|
+D|--------------------------------|
+
+
+e|------------------------------------|
+b|------------------------------------|
+g|---------------6---------7p6--------|
+d|------7---9--9----7------------9-7--|
+a|--9---------------------------------|
+D|------------------------------------|
+
+
+e|--------------------------------|
+b|--------------------------------|
+g|-----9--------7-9h7-6--9-7-7----|
+d|--------------------------------|
+a|--------------------------------|
+D|--------------------------------|
+
+e|--------------------------------|
+b|-------6----9--9----------------|
+g|-------6----------6---6h7-6--7--|
+d|--6h9---------------------------|
+a|--------------------------------|
+D|--------------------------------|
+
+
+e|--------------------------------|
+b|--7-----------------------------|
+g|--7-----------------------------|
+d|--------7-9---9^--9p7-----------|
+a|-----------------------9--------|
+D|--------------------------------|
+
+e|--------------------------------|
+b|--------------------------------|
+g|----9---9---9----9-----9--------|
+d|-9^--9^--9^---9^---9^-----------|
+a|--------------------------------|
+D|--------------------------------|
+
+e|--------------------------------|
+b|--------------------------------|
+g|--------------------------------|
+d|----9^--9p7---------------------|
+a|-------------9------------------|
+a|--------------------------------|
+D|--------------------------------|
+!ec
+# #endif

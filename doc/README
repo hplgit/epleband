@@ -1,0 +1,12 @@
+This directory contains documentation on how to use the Doconce tool
+to document songs with tabs and videos for various devices: paper,
+iPad, mobile phone, compact format, long expanded format, etc.
+
+howto.do.txt: source for how to document
+songs.do.txt: example on documenting a song
+
+pub: directory for compiled documents in various formats
+(essentially the howto document with pointers to various versions
+of the songs document). Start reading pub/howto.html, or to
+see a specific song in actionL read songs.html.
+
