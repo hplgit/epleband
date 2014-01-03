@@ -7,6 +7,6 @@ TITLE: Epleband
  * "PDF kompakt": "https://epleband.googlecode.com/git/2013/epleband13.pdf"
  * "PDF m/lyrics": "https://epleband.googlecode.com/git/2013/epleband13_lyrics.pdf"
  * "PDF kompakt for mobil": "https://epleband.googlecode.com/git/2013/epleband13_mobil.pdf"
-* "mp3 filer": "http://simula.no/~hpl/tmp/epleband13_mp3.zip"
+ * "mp3 filer": "http://simula.no/~hpl/tmp/epleband13_mp3.zip"
 
 # Note: no BSC license for the mp3 files...can't be in repository

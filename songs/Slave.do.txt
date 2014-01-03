@@ -7,51 +7,51 @@ __Slave.__
 # #endif
 3x vers+refreng, bridge, vers+refreng.
 
-_Chords:_ *vers*: `Em`; *refreng*: `Am Em-Am-Em`
+_Chords:_ *vers*: `F#m`; *refreng*: `Bm F#m-Bm-F#m`
 
 # #ifdef LYRICS
 !bc
-Em
+F#m
 Du kan rive meg opp med lange negler
 gi meg navn på dyr som kryper
 du kan ringe meg opp fra en anne seng
 og kaste glass og flasker når jeg kommer hjem
 
-              Am
+              Hm
 Men det er en ting lille pike
-                               Em     Am  Em
+                               F#m     Hm  F#m
 kanskje du tror det men jeg blir aldri slaven din
 
-Em
+F#m
 Hvis du vil kan du ligge øverst
 du er så søt du tør og prøver
 hvis du har kan jeg godt få litt
 for jeg blir en zombie uten kjærlighet
 
-Am
+Hm
 Men det er en ting lille pike
-                               Em     Am  Em
+                               F#m     Hm  F#m
 kanskje du tror det men jeg blir aldri slaven din
 
-Em
+F#m
 Jeg har sett det før
 lat man har mot det man får
 bolter dører og vinduer
 fader ut i grått og forsvinner
 
-Am
+Hm
 Men det er en ting lille pike
-                               Em     Am  Em
+                               F#m     Hm  F#m
 kanskje du tror det men jeg blir aldri slaven din
 
-Am
+Hm
 Jeg har ikke sett sånn før
-                           Em
+                           F#m
 fatter hvor du vil men jeg gjør det bare aldri
 
-Am
+Hm
 Men det er en ting lille pike
-                               Em     Am  Em
+                               F#m     Hm  F#m
 kanskje du tror det men jeg blir aldri slaven din
 !ec
 # #endif

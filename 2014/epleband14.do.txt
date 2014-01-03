@@ -7,32 +7,45 @@ DATE: today
 
 TOC: on
 
+!split
 # #include "../songs/Proud_Mary.do.txt"
 
+!split
 # #include "../songs/Kokken_Tor.do.txt"
 
+!split
 # #include "../songs/Black_Magic_Woman.do.txt"
 
+!split
 # #include "../songs/Wish_You_Were_Here.do.txt"
 
+!split
 # #include "../songs/Johnny_B_Goode.do.txt"
 
+!split
 # #include "../songs/Wonderful_Tonight.do.txt"
 
+!split
 # #include "../songs/Wild_Horses.do.txt"
 
+!split
 # #include "../songs/Brown_Sugar.do.txt"
 
+!split
 # #include "../songs/Sensitive_Kind.do.txt"
 
+!split
 # #include "../songs/Slave.do.txt"
 
 # #include "../songs/Should_I_Stay_Or_Should_I_Go.do.txt"
 
+!split
 # #include "../songs/The_Fox.do.txt"
 
+!split
 # #include "../songs/Wicked_Game.do.txt"
 
+!split
 # #include "../songs/Back_In_The_USSR.do.txt"
 
 
