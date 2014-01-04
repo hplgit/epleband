@@ -1,0 +1,101 @@
+# #ifdef LYRICS
+# Big title
+======= Fortunate Son =======
+# #else
+# Compact title combined with compact info
+__Fortunate Son.__
+# #endif
+vers, ...
+
+_Chords:_ *vers*: `G F C G F C G`; *refreng*: `2x G D C G`
+
+# #ifdef LYRICS
+!bc
+Verse
+
+[G]Some folks are born, [F]made to wave the flag
+[C]Ooh they're red white and [G]blue
+[G]And when the band plays [F]hail to the chief
+[C]Ooh they point the cannons at [G]you, y'all
+
+Chorus
+
+[G]It aint me, [D]It aint me, [C]I aint no senators [G]son y'all
+[G]It aint me, [D]It aint me, [C]I aint no fortunate [G]one , no
+
+[G]Some folks are born, [F]silver spoon in hand
+[C]Lord they don't help [G]themselves, y'all
+[G]But when the tax man [F]comes to the door
+[C]Lord the house looks like a rummage [G]sale yeah
+
+[G]It aint me, [D]It aint me [C]I aint no millionaires [G]son, no
+[G]It aint me, [D]It aint me [C]I aint no fortunate [G]one, no
+
+[G]Some folks inherit [F]star spangled eyes
+[C]Ooh they send you down to [G]war y'all
+[G]It aint me, [F]It aint me
+[G]I'm no fortunate [G]one no
+!ec
+# #endif
+
+# #ifdef MOVIES
+===== Movies =====
+
+MOVIE: [http://www.youtube.com/watch?v=ec0XKhAHR5I] Original.
+
+MOVIE: [http://www.youtube.com/watch?v=EyM6ZCxaUB4] John Fogerty 2004
+
+MOVIE: [http://www.youtube.com/watch?v=iQqHzPzQsMg] Springsteen + Fogerty 2009.
+
+MOVIE: [http://www.youtube.com/watch?v=EyM6ZCxaUB4] Pearl Jam.
+
+MOVIE: [http://www.youtube.com/watch?v=8bBp2wq322Q] Fogerty + Foo Fighters 2013.
+
+
+# #endif
+
+# #ifdef TAB
+===== Tab =====
+
+MOVIE: [http://www.youtube.com/watch?v=VADuYfGLO80] Instructions with tab.
+
+Associated tabs:
+
+!bc
+E---------------------------------------------------------------------
+B--------8----------6----------------5------------3----------------
+G---------------------------------------------------------------------
+D----/9--------/7------------3/5-----------2/3--------------------
+A----------------------------------------------------------1----------
+E----------------------------------------------------------------3----
+
+G, F, C, G
+E----------------------------------
+B----------------------------------
+G-------------------5-------------
+D----5------3------5------5-----
+A----5------3------3------5-----
+E----3------1--------------3-----
+
+G, D, C, C
+E-----------------------------------
+B-----------------------------------
+G-----------7-----5---------------
+D----5-----7-----5-----5---------
+A----5-----5-----3-----5---------
+E----3-------------------3---------
+
+E--------------------------------------
+B----/6-----5------\1------1/3-----
+G----/7-----6------\2------2/4-----
+D--------------------------------------
+A--------------------------------------
+E--------------------------------------
+!ec
+
+
+MOVIE: [http://www.youtube.com/watch?v=HtDr7kZLPLg] Alternative instruction.
+
+FIGURE: [../songs/Fortunate_Son_score.png, width=700]
+# #endif
+

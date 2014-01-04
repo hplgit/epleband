@@ -1,0 +1,79 @@
+# #ifdef LYRICS
+# Big title
+======= Fritt liv =======
+# #else
+# Compact title combined with compact info
+__Fritt liv.__
+# #endif
+#4x vers, refreng, solo, 2x vers, ...
+
+#_Chords:_ *vers*: `D Bm ...`; *refreng*: `3x A E F#m D`, `A E F#m A`
+
+# #ifdef LYRICS
+!bc
+	G	D
+Jeg lever som om jeg var rik selv om jeg ingen penger har
+	C	G
+Kjører rundt i byen og spiser kaviar
+	D
+Lever som det passer meg, tar hva jeg kan få
+	C	G
+Trenger ingen knagg å henge livet mitt på
+
+	C	G
+Jeg har et rom og kjøkken, det er mer en nok for meg
+	C	G
+Der er jeg konge, ja der bestemmer jeg
+	C	G	D
+Kong Michael den første, min bror er lord,  sier hei seng ikke ligg der og sov
+
+	G	D
+Ja,    ...   ser ut som en ond aristokrat
+	C	G
+Da jeg fra naturns side er utrolig lat
+	D
+Å være uti samfunnet det ække no for meg
+	C	G
+Etter fem minutter har jeg gått lei
+
+	C	G
+Alle streberne med sin falske lykke
+	C	G
+Og sine tanketomme meninger, de byr meg i mot
+	C	G	D
+De har ingenting og si meg, de har ingenting å gi meg
+
+	G	D
+Så jeg lever heller som jeg gjør selv om jeg ingen penger har
+	C	G
+Kjører rundt i byen og spiser kaviar
+	D
+Lever som det passer meg, tar hva jeg kan få
+	C	G
+Trenger ingen knagg å henge livet mitt på
+
+	C	G
+Jeg har et rom og kjøkken, det er mer en nok for meg
+	C	G
+Der er jeg konge, ja der bestemmer jeg
+	C	G	D
+Kong Michael den første, min bror er lord, 	yeah, yeah, yeah
+
+	G	D
+Jeg jobber på et mesterverk, skriver det med blod
+	C	G
+Men hvis det ikke slår an nå, så gjør det ikke no
+	D
+For når jeg er borte vil de skjønne hvem jeg var
+	C	G
+Og holde vakre minnetaler ved min grav
+!ec
+# #endif
+
+# #ifdef MOVIES
+===== Movies =====
+
+MOVIE: [http://www.youtube.com/watch?v=CifjeXlmBCg] Original.
+
+# #endif
+
