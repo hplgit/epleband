@@ -3,31 +3,13 @@
 # #else
 __I Saw Her Standing There.__
 # #endif
-intro, vers, refreng, ...
+intro, 2x vers, bridge, vers, solo, bridge, vers
+
+__Chords:__ *vers*: `E7 A7 E7 B7 E E7 A7 C7 E7 B7 E7`; *bridge*: `A7 B7 A7 E7`
 
 
-Intro:
-         E7
-guitar 1
-e--------4-----4--4---|-4---4--4-4-|-------|--------|
-b--------3-----3--3---|-3---3--3-3-|-------|--------|
-g--------4-----4--4---|-4---4--4-4-|-------%--------|
-d--------2-----2--2---|-2---2--2-2-|-------|--------|
-a---------------------|------------|-------|--------|
-e---------------------|------------|-------|--------|
-
-guitar 2
-e---------------------|------------|-------|--------|
-b---------------------|------------|-------|--------|
-g---------------------|------%-----|-------%--------|
-d-----------2-2-------|------------|-------|--------|
-a-----------2-2-------|------------|-------|--------|
-e--0-0-4-0-------5-4--|------------|-------|--------|
-
-
-
-I SAW HER STANDING THERE     THE BEATLES
-
+# #ifdef LYRICS
+!bc
              E7                     A7          E7
 Well she was just seventeen and you know what I mean
                                       B7
@@ -81,26 +63,47 @@ E7              B7       E7
 Since I saw her standing there
 E7                 E7      B7       E7
 Yeah, Well since I saw her standing there
+!ec
+# #endif
 
 # #ifdef MOVIES
 ===== Movies =====
 
+MOVIE: [http://www.youtube.com/watch?v=DsgWfAilIEM] Original.
 
-MOVIE: [http://www.youtube.com/watch?v=1nWUWbjM_dA] (cool)
+MOVIE: [http://www.youtube.com/watch?v=sybI6FiuKjk] Live 1964.
 
-MOVIE: [http://www.youtube.com/watch?v=AHvjfPKj2H0] (rhythm)
-
-MOVIE: [http://www.youtube.com/watch?v=UxCgacmi6IM] (George H guitar)
-
-MOVIE: [http://www.youtube.com/watch?v=OY3dvm9hRxo] (George H guitar, not so good view)
-
-MOVIE: [http://www.youtube.com/watch?v=zT75LLoMPlE] (the real rhythm chords)
+MOVIE: [http://www.youtube.com/watch?v=kDAMRMQr48g] Springsteen + McCartney 2012.
 
 # #endif
 
 # #ifdef TAB
-===== Tab =====
 
+Intro:
+!bc
+         E7
+guitar 1
+e--------4-----4--4---|-4---4--4-4-|-------|--------|
+b--------3-----3--3---|-3---3--3-3-|-------|--------|
+g--------4-----4--4---|-4---4--4-4-|-------%--------|
+d--------2-----2--2---|-2---2--2-2-|-------|--------|
+a---------------------|------------|-------|--------|
+e---------------------|------------|-------|--------|
+
+guitar 2
+e---------------------|------------|-------|--------|
+b---------------------|------------|-------|--------|
+g---------------------|------%-----|-------%--------|
+d-----------2-2-------|------------|-------|--------|
+a-----------2-2-------|------------|-------|--------|
+e--0-0-4-0-------5-4--|------------|-------|--------|
+!ec
+# #endif
+
+
+
+# #ifdef EXTRA
+!bc
 e|------- ------- ------- -------|------- ------- ------- -------|
 B|-------------------------------|-------------------------------|
 G|-------------------------------|-------------------------------|
@@ -544,8 +547,8 @@ D|-------------------------------|-------------------------------|
 A|-------------------------------|-------------------------------|
 E|-------------------------------|-------------------------------|
 
-Solo...
 
+Solo...
 
           E7
 e|------- 0------ 0---0-- -------|0------ 0------ 0------ 0------|
@@ -831,6 +834,15 @@ E|-------------------------------|-------------------------------|
 # #ifdef TAB_SOLO
 ===== Tab solo guitar =====
 
+MOVIE: [http://www.youtube.com/watch?v=1nWUWbjM_dA] (cool)
+
+MOVIE: [http://www.youtube.com/watch?v=AHvjfPKj2H0] (rhythm)
+
+MOVIE: [http://www.youtube.com/watch?v=UxCgacmi6IM] (George H guitar)
+
+MOVIE: [http://www.youtube.com/watch?v=OY3dvm9hRxo] (George H guitar, not so good view)
+
+MOVIE: [http://www.youtube.com/watch?v=zT75LLoMPlE] (the real rhythm chords)
 
 
 !bc

@@ -11,6 +11,11 @@ doconce format html epleband${year} -DLYRICS -DTAB -DMOVIES --html_style=bloodis
 mv epleband${year}.html epleband${year}_lyrics_tab_youtube.html
 doconce split_html epleband${year}_lyrics_tab_youtube.html
 
+doconce format html epleband${year} -DLYRICS -DTAB -DTAB_SOLO -DMOVIES --html_style=bloodish --encoding=utf-8
+mv epleband${year}.html epleband${year}_lyrics_tab_youtube_solo.html
+doconce split_html epleband${year}_lyrics_tab_youtube_solo.html
+
+
 # Extended info HTML, one big file, tab, but no movies
 doconce format html epleband${year} -DLYRICS -DTAB --html_style=bloodish --encoding=utf-8
 mv epleband${year}.html epleband${year}_lyrics_tab.html
@@ -38,5 +43,6 @@ mv epleband${year}.pdf epleband${year}_mobil.pdf
 doconce format pdflatex epleband${year}
 doconce ptex2tex epleband${year}  -DA4PAPER
 pdflatex epleband${year}
+
 
 doconce format html index --html_style=bloodish

@@ -46,6 +46,18 @@ TOC: on
 # #include "../songs/Wicked_Game.do.txt"
 
 !split
+# #include "../songs/I_Saw_Her_Standing_There.do.txt"
+
+!split
 # #include "../songs/Back_In_The_USSR.do.txt"
+
+!split
+# #include "../songs/Fortunate_Son.do.txt"
+
+!split
+# #include "../songs/Fritt_liv.do.txt"
+
+!split
+# #include "../songs/Beggin.do.txt"
 
 
