@@ -7,7 +7,7 @@ __Fritt liv.__
 # #endif
 #4x vers, refreng, solo, 2x vers, ...
 
-#_Chords:_ *vers*: `D Bm ...`; *refreng*: `3x A E F#m D`, `A E F#m A`
+_Chords:_ *vers*: `G D C G D C G`, 'C G C G C G D'
 
 # #ifdef LYRICS
 !bc

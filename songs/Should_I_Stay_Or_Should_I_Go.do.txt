@@ -6,7 +6,8 @@
 __Should I Stay Or Should I Go?.__
 # #endif
 
-_Chords:_ *vers*: `D Bm ...`; *refreng*: `3x A E F#m D`, `A E F#m A`
+_Chords:_ *vers*: 2x `D G D', 'G F G', 'D G D A', 'D G D';
+*refreng*: `D G A5 G'
 
 # #ifdef LYRICS
 !bc

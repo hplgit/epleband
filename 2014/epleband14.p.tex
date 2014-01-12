@@ -17,12 +17,13 @@
 %% Many preprocess options can be added to ptex2tex or doconce ptex2tex
 %%
 %%      ptex2tex -DMINTED -DPALATINO -DA6PAPER -DLATEX_HEADING=traditional myfile
-%%      doconce ptex2tex myfile -DMINTED -DLATEX_HEADING=titlepage
+%%      doconce ptex2tex myfile -DLATEX_HEADING=titlepage envir=minted
 %%
 %% ptex2tex will typeset code environments according to a global or local
 %% .ptex2tex.cfg configure file. doconce ptex2tex will typeset code
 %% according to options on the command line (just type doconce ptex2tex to
-%% see examples).
+%% see examples). If doconce ptex2tex has envir=minted, it enables the
+%% minted style without needing -DMINTED.
 % #endif
 
 % #ifndef LATEX_STYLE
@@ -63,6 +64,7 @@ final,                   % or draft (marks overfull hboxes)
 % Style: T2 (Springer)
 \documentclass[graybox,sectrefs,envcountresetchap,open=right]{svmono}
 \usepackage{t2}
+\special{papersize=193mm,260mm}
 % #elif LATEX_STYLE == "Springer_llcse"
 % Style: Lecture Notes in Computer Science (Springer)
 \documentclass[oribib]{llncs}
@@ -109,6 +111,7 @@ final,                   % or draft (marks overfull hboxes)
 % Examples of font types (Ubuntu): Gentium Book Basic (Palatino-like),
 % Liberation Sans (Helvetica-like), Norasi, Purisa (handwriting), UnDoum
 % #else
+\usepackage[T1]{fontenc}
 %\usepackage[latin1]{inputenc}
 \usepackage[utf8]{inputenc}
 % #ifdef HELVETICA
@@ -122,6 +125,7 @@ final,                   % or draft (marks overfull hboxes)
 \linespread{1.05}            % Palatino needs extra line spread to look nice
 % #endif
 % #endif
+\usepackage{lmodern}         % Latin Modern fonts derived from Computer Modern
 
 % Hyperlinks in PDF:
 \definecolor{linkcolor}{rgb}{0,0,0.4}
@@ -238,11 +242,13 @@ final,                   % or draft (marks overfull hboxes)
 \oldtabular}{\endoldtabular}
 % #endif
 
+
 % --- end of standard preamble for documents ---
 
 
 % insert custom LaTeX commands...
 
+\raggedbottom
 \makeindex
 
 %-------------------- end preamble ----------------------
@@ -343,16 +349,16 @@ Epleband 19/1-2013
 
 
 % #if LATEX_HEADING == "traditional"
-\date{Jan 4, 2014}
+\date{Jan 12, 2014}
 \maketitle
 % #elif LATEX_HEADING == "beamer"
-\date{Jan 4, 2014
+\date{Jan 12, 2014
 % <titlepage figure>
 }
 % #elif LATEX_HEADING == "titlepage"
 
 \ \\ [10mm]
-{\large\textsf{Jan 4, 2014}}
+{\large\textsf{Jan 12, 2014}}
 
 \end{center}
 \vfill
@@ -360,7 +366,7 @@ Epleband 19/1-2013
 
 % #else
 \begin{center}
-Jan 4, 2014
+Jan 12, 2014
 \end{center}
 
 \vspace{1cm}
@@ -384,7 +390,7 @@ intro, vers, refreng, intro, vers, refreng, intro, vers m/solo, refreng,
 vers, refreng, refreng, ...
 
 \textbf{Chords:} \emph{intro}: \code{G E G E G E D C C6 C D A};
-\emph{vers}: \code{A E F\#,}; \emph{refreng}: \code{A} (med to ganger \emph{rollin' on a river})
+\emph{vers}: \code{A E F#,}; \emph{refreng}: \code{A} (med to ganger \emph{rollin' on a river})
 
 
 
@@ -393,8 +399,8 @@ vers, refreng, refreng, ...
 \paragraph{Kokken Tor.}
 4x vers, refreng, 2x vers, refreng, 2x vers, refreng, refreng m/solo
 
-\textbf{Chords:} \emph{vers}: \code{D Bm D Bm A D F\#m A};
-\emph{refreng}: \code{3x A E F\#m D}, \code{A E F\#m A}
+\textbf{Chords:} \emph{vers}: \code{D Bm D Bm A D F#m A};
+\emph{refreng}: \code{3x A E F#m D}, \code{A E F#m A}
 
 
 
@@ -436,10 +442,10 @@ vers, refreng
 \paragraph{Wonderful Tonight.}
 intro gitar, vers, intro gitar, vers, bro, intro trompet, vers m/solo gitar, intro trompet, intro, vers
 
-\textbf{Chords:} \emph{intro}: \code{G D/F\# C D G D/F\# C D};
+\textbf{Chords:} \emph{intro}: \code{G D/F# C D G D/F# C D};
 \emph{vers}:
-\code{C D G D/F\# C}, \code{D C D G Bm/F\# Em C D G};
-\emph{bro}: \code{C D G Bm/F\# Em C D C D G}
+\code{C D G D/F# C}, \code{D C D G Bm/F# Em C D G};
+\emph{bro}: \code{C D G Bm/F# Em C D C D G}
 
 
 
@@ -488,31 +494,11 @@ intro, 2x vers, solo, vers.
 
 
 
+% !split
 % Compact title combined with compact info
 \paragraph{Should I Stay Or Should I Go?.}
-\textbf{Chords:} \emph{vers}: \code{D Bm ...}; \emph{refreng}: \code{3x A E F\#m D}, \code{A E F\#m A}
-
-
-
-
-
-% !split
-% Compact title combined with compact info
-\paragraph{The Fox.}
-2x vers+refreng, bridge.
-
-\textbf{Chords:} \emph{vers}: \code{Bm A E}; \emph{refreng}: \code{Bm A E}, \emph{bridge}: 4x
-\code{G F\#m Bm A F\#m G A}.
-
-
-
-
-% !split
-% Compact title combined with compact info
-\paragraph{Wicked Game.}
-vers, ..
-
-\textbf{Chords:} \emph{vers}: \code{Bm A E}; \emph{refreng}: \code{Bm A E}.
+\textbf{Chords:} \emph{vers}: 2x `D G D', 'G F G', 'D G D A', 'D G D';
+\emph{refreng}: `D G A5 G'
 
 
 
@@ -540,7 +526,7 @@ intro, 2x vers, bridge, vers, solo, bridge, vers
 intro, 2x vers+refreng, bridge, solo (vers), refreng, bridge, vers, refreng.
 
 \textbf{Chords:} \emph{vers}: \code{A D C D}; \emph{refreng}: \code{A C D A D-Eb-E},
-\emph{bridge}: \code{D A D D/C\# D/C D/B E D A D-Eb-E}
+\emph{bridge}: \code{D A D D/C# D/C D/B E D A D-Eb-E}
 
 
 
@@ -549,7 +535,7 @@ intro, 2x vers+refreng, bridge, solo (vers), refreng, bridge, vers, refreng.
 % !split
 % Compact title combined with compact info
 \paragraph{Fortunate Son.}
-vers, ...
+% vers, ...
 
 \textbf{Chords:} \emph{vers}: \code{G F C G F C G}; \emph{refreng}: \code{2x G D C G}
 
@@ -562,7 +548,7 @@ vers, ...
 \paragraph{Fritt liv.}
 % 4x vers, refreng, solo, 2x vers, ...
 
-% \textbf{Chords:} \emph{vers}: \code{D Bm ...}; \emph{refreng}: \code{3x A E F\#m D}, \code{A E F\#m A}
+\textbf{Chords:} \emph{vers}: \code{G D C G D C G}, 'C G C G C G D'
 
 
 
@@ -571,6 +557,30 @@ vers, ...
 % Compact title combined with compact info
 \paragraph{Beggin'.}
 \textbf{Chords:} \code{D Bb Em7 A7}
+
+
+
+
+% !split
+% Compact title combined with compact info
+\paragraph{The Fox.}
+2x vers+refreng, bridge.
+
+\textbf{Chords:} \emph{vers}: \code{Bm A E}; \emph{refreng}: \code{Bm A E}, \emph{bridge}: 4x
+\code{G F#m Bm A F#m G A}.
+
+
+
+
+% !split
+% Compact title combined with compact info
+\paragraph{Wicked Game.}
+vers, ..
+
+\textbf{Chords:} \emph{vers}: \code{Bm A E}; \emph{refreng}: \code{Bm A E}.
+
+
+
 
 
 

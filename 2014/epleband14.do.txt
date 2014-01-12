@@ -37,13 +37,8 @@ TOC: on
 !split
 # #include "../songs/Slave.do.txt"
 
+!split
 # #include "../songs/Should_I_Stay_Or_Should_I_Go.do.txt"
-
-!split
-# #include "../songs/The_Fox.do.txt"
-
-!split
-# #include "../songs/Wicked_Game.do.txt"
 
 !split
 # #include "../songs/I_Saw_Her_Standing_There.do.txt"
@@ -59,5 +54,11 @@ TOC: on
 
 !split
 # #include "../songs/Beggin.do.txt"
+
+!split
+# #include "../songs/The_Fox.do.txt"
+
+!split
+# #include "../songs/Wicked_Game.do.txt"
 
 

@@ -5,7 +5,7 @@
 # Compact title combined with compact info
 __Fortunate Son.__
 # #endif
-vers, ...
+#vers, ...
 
 _Chords:_ *vers*: `G F C G F C G`; *refreng*: `2x G D C G`
 

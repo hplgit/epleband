@@ -12,8 +12,11 @@ mv epleband${year}.html epleband${year}_lyrics_tab_youtube.html
 doconce split_html epleband${year}_lyrics_tab_youtube.html
 
 doconce format html epleband${year} -DLYRICS -DTAB -DTAB_SOLO -DMOVIES --html_style=bloodish --encoding=utf-8
+if [ $? -ne 0 ]; then exit 1; fi
 mv epleband${year}.html epleband${year}_lyrics_tab_youtube_solo.html
 doconce split_html epleband${year}_lyrics_tab_youtube_solo.html
+doconce format html epleband${year} -DLYRICS -DTAB -DTAB_SOLO --html_style=bloodish --encoding=utf-8
+mv epleband${year}.html epleband${year}_lyrics_tab_solo.html
 
 
 # Extended info HTML, one big file, tab, but no movies

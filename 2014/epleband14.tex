@@ -25,8 +25,10 @@ final,                   % or draft (marks overfull hboxes)
 
 \usepackage{fancyvrb} % packages needed for verbatim environments
 
+\usepackage[T1]{fontenc}
 %\usepackage[latin1]{inputenc}
 \usepackage[utf8]{inputenc}
+\usepackage{lmodern}         % Latin Modern fonts derived from Computer Modern
 
 % Hyperlinks in PDF:
 \definecolor{linkcolor}{rgb}{0,0,0.4}
@@ -53,11 +55,13 @@ final,                   % or draft (marks overfull hboxes)
 
 
 
+
 % --- end of standard preamble for documents ---
 
 
 % insert custom LaTeX commands...
 
+\raggedbottom
 \makeindex
 
 %-------------------- end preamble ----------------------
@@ -98,7 +102,7 @@ Epleband 19/1-2013
 
 
 \begin{center}
-Jan 4, 2014
+Jan 12, 2014
 \end{center}
 
 \vspace{1cm}
@@ -119,7 +123,7 @@ intro, vers, refreng, intro, vers, refreng, intro, vers m/solo, refreng,
 vers, refreng, refreng, ...
 
 \textbf{Chords:} \emph{intro}: \Verb!G E G E G E D C C6 C D A!;
-\emph{vers}: \Verb!A E F\#,!; \emph{refreng}: \Verb!A! (med to ganger \emph{rollin' on a river})
+\emph{vers}: \Verb!A E F#,!; \emph{refreng}: \Verb!A! (med to ganger \emph{rollin' on a river})
 
 
 
@@ -128,8 +132,8 @@ vers, refreng, refreng, ...
 \paragraph{Kokken Tor.}
 4x vers, refreng, 2x vers, refreng, 2x vers, refreng, refreng m/solo
 
-\textbf{Chords:} \emph{vers}: \Verb!D Bm D Bm A D F\#m A!;
-\emph{refreng}: \Verb!3x A E F\#m D!, \Verb!A E F\#m A!
+\textbf{Chords:} \emph{vers}: \Verb!D Bm D Bm A D F#m A!;
+\emph{refreng}: \Verb!3x A E F#m D!, \Verb!A E F#m A!
 
 
 
@@ -171,10 +175,10 @@ vers, refreng
 \paragraph{Wonderful Tonight.}
 intro gitar, vers, intro gitar, vers, bro, intro trompet, vers m/solo gitar, intro trompet, intro, vers
 
-\textbf{Chords:} \emph{intro}: \Verb!G D/F\# C D G D/F\# C D!;
+\textbf{Chords:} \emph{intro}: \Verb!G D/F# C D G D/F# C D!;
 \emph{vers}:
-\Verb!C D G D/F\# C!, \Verb!D C D G Bm/F\# Em C D G!;
-\emph{bro}: \Verb!C D G Bm/F\# Em C D C D G!
+\Verb!C D G D/F# C!, \Verb!D C D G Bm/F# Em C D G!;
+\emph{bro}: \Verb!C D G Bm/F# Em C D C D G!
 
 
 
@@ -223,31 +227,11 @@ intro, 2x vers, solo, vers.
 
 
 
+% !split
 % Compact title combined with compact info
 \paragraph{Should I Stay Or Should I Go?.}
-\textbf{Chords:} \emph{vers}: \Verb!D Bm ...!; \emph{refreng}: \Verb!3x A E F\#m D!, \Verb!A E F\#m A!
-
-
-
-
-
-% !split
-% Compact title combined with compact info
-\paragraph{The Fox.}
-2x vers+refreng, bridge.
-
-\textbf{Chords:} \emph{vers}: \Verb!Bm A E!; \emph{refreng}: \Verb!Bm A E!, \emph{bridge}: 4x
-\Verb!G F\#m Bm A F\#m G A!.
-
-
-
-
-% !split
-% Compact title combined with compact info
-\paragraph{Wicked Game.}
-vers, ..
-
-\textbf{Chords:} \emph{vers}: \Verb!Bm A E!; \emph{refreng}: \Verb!Bm A E!.
+\textbf{Chords:} \emph{vers}: 2x `D G D', 'G F G', 'D G D A', 'D G D';
+\emph{refreng}: `D G A5 G'
 
 
 
@@ -275,7 +259,7 @@ intro, 2x vers, bridge, vers, solo, bridge, vers
 intro, 2x vers+refreng, bridge, solo (vers), refreng, bridge, vers, refreng.
 
 \textbf{Chords:} \emph{vers}: \Verb!A D C D!; \emph{refreng}: \Verb!A C D A D-Eb-E!,
-\emph{bridge}: \Verb!D A D D/C\# D/C D/B E D A D-Eb-E!
+\emph{bridge}: \Verb!D A D D/C# D/C D/B E D A D-Eb-E!
 
 
 
@@ -284,7 +268,7 @@ intro, 2x vers+refreng, bridge, solo (vers), refreng, bridge, vers, refreng.
 % !split
 % Compact title combined with compact info
 \paragraph{Fortunate Son.}
-vers, ...
+% vers, ...
 
 \textbf{Chords:} \emph{vers}: \Verb!G F C G F C G!; \emph{refreng}: \Verb!2x G D C G!
 
@@ -297,7 +281,7 @@ vers, ...
 \paragraph{Fritt liv.}
 % 4x vers, refreng, solo, 2x vers, ...
 
-% \textbf{Chords:} \emph{vers}: \Verb!D Bm ...!; \emph{refreng}: \Verb!3x A E F\#m D!, \Verb!A E F\#m A!
+\textbf{Chords:} \emph{vers}: \Verb!G D C G D C G!, 'C G C G C G D'
 
 
 
@@ -306,6 +290,30 @@ vers, ...
 % Compact title combined with compact info
 \paragraph{Beggin'.}
 \textbf{Chords:} \Verb!D Bb Em7 A7!
+
+
+
+
+% !split
+% Compact title combined with compact info
+\paragraph{The Fox.}
+2x vers+refreng, bridge.
+
+\textbf{Chords:} \emph{vers}: \Verb!Bm A E!; \emph{refreng}: \Verb!Bm A E!, \emph{bridge}: 4x
+\Verb!G F#m Bm A F#m G A!.
+
+
+
+
+% !split
+% Compact title combined with compact info
+\paragraph{Wicked Game.}
+vers, ..
+
+\textbf{Chords:} \emph{vers}: \Verb!Bm A E!; \emph{refreng}: \Verb!Bm A E!.
+
+
+
 
 
 
