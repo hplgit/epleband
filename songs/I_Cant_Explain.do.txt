@@ -1,0 +1,122 @@
+# #ifdef LYRICS
+# Big title
+======= I Can't Explain =======
+# #else
+# Compact title combined with compact info
+__I Can't Explain.__
+# #endif
+vers, refreng, vers, bridge, refreng
+
+_Chords:_ *vers*: 3x `F# E B F#`, `F# E C# F#`; *refreng* 2x `F# E B F#`;
+*bridge*: `F# D#m B C#`
+
+# #ifdef LYRICS
+!bc
+INTRO: F# | E E | B | F# F#  x6
+
+F#            E    B    F#
+I got a feeling inside
+F#            E    B    F#
+It's a certain kind
+F#            E    B    F#
+I feel hot and cold
+F#            E    C#   F#
+Deep down in my soul
+
+F#            E    B    F#
+I said I can't explain
+F#            E    B    F#
+I'm feeling good enough baby
+
+
+F#            E    B    F#
+I'm dizzy in my head and I'm feeling blue
+
+F#            E    B    F#
+Things you say but maybe they're true
+
+F#            E    B    F#
+Getting funny dreams again and again
+F#            E      C#
+I know what it means but
+
+F#
+I can't explain
+D#m
+I think it's love
+B
+I'm trying to say to you
+C#
+When I feel blue
+F#            E    B   F#
+But I can't explain (can't explain)
+F#            E    B   F#
+Just hear what I'm saying baby (can't explain)
+
+(SOLO 4x intro-riff)
+
+I'm dizzy in the head
+And I'm feeling bad
+Things you say got me real mad
+Getting funny dreams again and again
+I know what it means but
+
+I can't explain
+I think it's love
+I'm trying to say to you
+When I feel blue
+But I can't explain (can't explain)
+Just hear me one more time baby (can't explain)
+
+(SOLO 2x intro-riff)
+
+I'm dizzy in the head
+And I'm feeling bad
+Things you say got me real mad
+Getting funny dreams again and again
+I know what it means but
+
+I can't explain
+I think it's love
+I'm trying to say to you
+When I feel blue
+But I can't explain (can't explain)
+Just hear me one more time baby (can't explain)
+
+F#            E    B    F#
+She drive me out of my mind (can't explain)
+F#            E    B    F#
+She drive me out of my mind (can't explain)
+F#            E    B    F#
+She drive me out of my mmm, mmm, mmm, mmm, mind (can't explain)
+F#            E    B    F#
+She drive me out of my mind (can't explain)
+F#            E    B    F#
+You drive me out of my mind (can't explain)
+
+F#                     E
+Oooh yeah, I can't explain
+               F#
+I can't explain baby
+!ec
+# #endif
+
+# #ifdef MOVIES
+===== Movies =====
+
+MOVIE: [http://www.youtube.com/watch?v=h3h--K5928M] The Who.
+
+MOVIE: [http://www.youtube.com/watch?v=MHF6iUJfePw] Scorpions.
+
+
+# #endif
+
+# #ifdef TAB
+===== Tab =====
+
+# #endif
+
+# #ifdef TAB_SOLO
+===== Tab solo guitar =====
+
+# #endif
