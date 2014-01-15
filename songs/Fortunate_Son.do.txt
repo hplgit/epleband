@@ -7,34 +7,35 @@ __Fortunate Son.__
 # #endif
 #vers, ...
 
-_Chords:_ *vers*: `G F C G F C G`; *refreng*: `2x G D C G`
+
+_Chords:_ *vers*: `F# E B F# E B F#`; *refreng*: `2x F# C# B F#`
 
 # #ifdef LYRICS
 !bc
 Verse
 
-[G]Some folks are born, [F]made to wave the flag
-[C]Ooh they're red white and [G]blue
-[G]And when the band plays [F]hail to the chief
-[C]Ooh they point the cannons at [G]you, y'all
+[F#]Some folks are born, [E]made to wave the flag
+[B]Ooh they're red white and [F#]blue
+[F#]And when the band plays [E]hail to the chief
+[B]Ooh they point the cannons at [F#]you, y'all
 
 Chorus
 
-[G]It aint me, [D]It aint me, [C]I aint no senators [G]son y'all
-[G]It aint me, [D]It aint me, [C]I aint no fortunate [G]one , no
+[F#]It aint me, [C#]It aint me, [B]I aint no senators [F#]son y'all
+[F#]It aint me, [C#]It aint me, [B]I aint no fortunate [F#]one , no
 
-[G]Some folks are born, [F]silver spoon in hand
-[C]Lord they don't help [G]themselves, y'all
-[G]But when the tax man [F]comes to the door
-[C]Lord the house looks like a rummage [G]sale yeah
+[F#]Some folks are born, [E]silver spoon in hand
+[B]Lord they don't help [F#]themselves, y'all
+[F#]But when the tax man [E]comes to the door
+[B]Lord the house looks like a rummage [F#]sale yeah
 
-[G]It aint me, [D]It aint me [C]I aint no millionaires [G]son, no
-[G]It aint me, [D]It aint me [C]I aint no fortunate [G]one, no
+[F#]It aint me, [C#]It aint me [B]I aint no millionaires [F#]son, no
+[F#]It aint me, [C#]It aint me [B]I aint no fortunate [F#]one, no
 
-[G]Some folks inherit [F]star spangled eyes
-[C]Ooh they send you down to [G]war y'all
-[G]It aint me, [F]It aint me
-[G]I'm no fortunate [G]one no
+[F#]Some folks inherit [E]star spangled eyes
+[B]Ooh they send you down to [F#]war y'all
+[F#]It aint me, [E]It aint me
+[F#]I'm no fortunate [F#]one no
 !ec
 # #endif
 

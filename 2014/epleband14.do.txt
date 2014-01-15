@@ -35,19 +35,23 @@ TOC: on
 # #include "../songs/Sensitive_Kind.do.txt"
 
 !split
-# #include "../songs/Slave.do.txt"
-
-!split
-# #include "../songs/Should_I_Stay_Or_Should_I_Go.do.txt"
+# #include "../songs/Hey_Joe.do.txt"
 
 !split
 # #include "../songs/I_Saw_Her_Standing_There.do.txt"
 
 !split
+# #include "../songs/Fortunate_Son.do.txt"
+
+!split
 # #include "../songs/Back_In_The_USSR.do.txt"
 
 !split
-# #include "../songs/Fortunate_Son.do.txt"
+# #include "../songs/Slave.do.txt"
+
+# #ifdef EXTRA14
+!split
+# #include "../songs/Should_I_Stay_Or_Should_I_Go.do.txt"
 
 !split
 # #include "../songs/Fritt_liv.do.txt"
@@ -60,5 +64,5 @@ TOC: on
 
 !split
 # #include "../songs/Wicked_Game.do.txt"
-
+# #endif
 

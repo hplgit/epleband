@@ -11,7 +11,7 @@
 
 \documentclass[%
 twoside,                 % oneside: electronic viewing, twoside: printing
-final,                   % or draft (marks overfull hboxes)
+final,                   % or draft (marks overfull hboxes, figures with paths)
 10pt]{article}
 
 
@@ -28,6 +28,9 @@ final,                   % or draft (marks overfull hboxes)
 \usepackage[T1]{fontenc}
 %\usepackage[latin1]{inputenc}
 \usepackage[utf8]{inputenc}
+% Set helvetica as the default font family:
+\RequirePackage{helvet}
+\renewcommand\familydefault{phv}
 \usepackage{lmodern}         % Latin Modern fonts derived from Computer Modern
 
 % Hyperlinks in PDF:
@@ -102,14 +105,14 @@ Epleband 19/1-2013
 
 
 \begin{center}
-Jan 12, 2014
+Jan 15, 2014
 \end{center}
 
 \vspace{1cm}
 
 
 
-\tableofcontents
+
 
 \vspace{1cm} % after toc'
 
@@ -120,7 +123,7 @@ Jan 12, 2014
 % !split
 \paragraph{Proud Mary.}
 intro, vers, refreng, intro, vers, refreng, intro, vers m/solo, refreng,
-vers, refreng, refreng, ...
+intro, vers, refreng, refreng, ...
 
 \textbf{Chords:} \emph{intro}: \Verb!G E G E G E D C C6 C D A!;
 \emph{vers}: \Verb!A E F#,!; \emph{refreng}: \Verb!A! (med to ganger \emph{rollin' on a river})
@@ -166,14 +169,16 @@ gjenta intro med div solo (HP)
 % !split
 \paragraph{Johnny B Goode.}
 intro v/Joakim, vers, refreng, vers, refreng, vers m/solo (HP), refreng,
-vers, refreng
+vers, refreng.
 
 \textbf{Chords:} \emph{vers/refreng}: \Verb!A D A E A!
+
+Husk: tighte gitarer som følger trommene.
 
 
 % !split
 \paragraph{Wonderful Tonight.}
-intro gitar, vers, intro gitar, vers, bro, intro trompet, vers m/solo gitar, intro trompet, intro, vers
+2x intro gitar, vers, 2x intro gitar, vers, bro, 2x intro trompet, vers m/solo gitar, 2x intro trompet, vers
 
 \textbf{Chords:} \emph{intro}: \Verb!G D/F# C D G D/F# C D!;
 \emph{vers}:
@@ -198,10 +203,12 @@ intro gitar, vers, intro gitar, vers, bro, intro trompet, vers m/solo gitar, int
 
 % !split
 \paragraph{Brown Sugar.}
-4x intro1, 2x intro2, vers, refreng, 2x intro2, vers, refreng, 4x intro2 m/solo, refreng, vers, refreng, deretter gjentagelse av chords i refrenget
+4x intro1, 2x intro2, vers, refreng, 2x intro2, vers, refreng, 4x intro2 (\Verb!Eb-C...!) m/solo, refreng, vers, refreng, deretter gjentagelse av chords i refrenget (\Verb!G C!).
 
 \textbf{Chords:} \emph{intro1}: \Verb!C-G C-Csus!; \emph{intro2}: \Verb!Eb-Eb9-Eb!, \Verb!C-Csus!, \Verb!Ab Bb C!;
 \emph{vers}: \Verb!C F C Bb C (Bb)!; \emph{refreng}: \Verb!G C G C!
+
+Husk: tighte gitarer som følger trommene.
 
 
 
@@ -219,35 +226,29 @@ intro, 2x vers, solo, vers.
 
 % !split
 % Compact title combined with compact info
-\paragraph{Slave.}
-3x vers+refreng, bridge, vers+refreng.
+\paragraph{Hey Joe.}
+% !split
+\paragraph{I Saw Her Standing There.}
+intro, 2x vers, bridge, vers, solo, bridge, vers
 
-\textbf{Chords:} \emph{vers}: \Verb!Em!; \emph{refreng}: \Verb!Am Em-Am-Em!
+\paragraph{Chords:}
+\emph{vers}: \Verb!C7 F7 C7 G7 C C7 F7 Fm7/Ab C7 G7 C7!; \emph{bridge}: \Verb!F7 G7 F7!
+
+
+
+
+
 
 
 
 
 % !split
 % Compact title combined with compact info
-\paragraph{Should I Stay Or Should I Go?.}
-\textbf{Chords:} \emph{vers}: 2x `D G D', 'G F G', 'D G D A', 'D G D';
-\emph{refreng}: `D G A5 G'
+\paragraph{Fortunate Son.}
+% vers, ...
 
 
-
-
-
-% !split
-\paragraph{I Saw Her Standing There.}
-intro, 2x vers, bridge, vers, solo, bridge, vers
-
-\paragraph{Chords:}
-\emph{vers}: \Verb!E7 A7 E7 B7 E E7 A7 C7 E7 B7 E7!; \emph{bridge}: \Verb!A7 B7 A7 E7!
-
-
-
-
-
+\textbf{Chords:} \emph{vers}: \Verb!F# E B F# E B F#!; \emph{refreng}: \Verb!2x F# C# B F#!
 
 
 
@@ -267,51 +268,10 @@ intro, 2x vers+refreng, bridge, solo (vers), refreng, bridge, vers, refreng.
 
 % !split
 % Compact title combined with compact info
-\paragraph{Fortunate Son.}
-% vers, ...
+\paragraph{Slave.}
+3x vers+refreng, bridge, vers+refreng.
 
-\textbf{Chords:} \emph{vers}: \Verb!G F C G F C G!; \emph{refreng}: \Verb!2x G D C G!
-
-
-
-
-
-% !split
-% Compact title combined with compact info
-\paragraph{Fritt liv.}
-% 4x vers, refreng, solo, 2x vers, ...
-
-\textbf{Chords:} \emph{vers}: \Verb!G D C G D C G!, 'C G C G C G D'
-
-
-
-
-% !split
-% Compact title combined with compact info
-\paragraph{Beggin'.}
-\textbf{Chords:} \Verb!D Bb Em7 A7!
-
-
-
-
-% !split
-% Compact title combined with compact info
-\paragraph{The Fox.}
-2x vers+refreng, bridge.
-
-\textbf{Chords:} \emph{vers}: \Verb!Bm A E!; \emph{refreng}: \Verb!Bm A E!, \emph{bridge}: 4x
-\Verb!G F#m Bm A F#m G A!.
-
-
-
-
-% !split
-% Compact title combined with compact info
-\paragraph{Wicked Game.}
-vers, ..
-
-\textbf{Chords:} \emph{vers}: \Verb!Bm A E!; \emph{refreng}: \Verb!Bm A E!.
-
+\textbf{Chords:} \emph{vers}: \Verb!Em!; \emph{refreng}: \Verb!Am Em-Am-Em!
 
 
 

@@ -3,7 +3,7 @@
 # #else
 __Wonderful Tonight.__
 # #endif
-intro gitar, vers, intro gitar, vers, bro, intro trompet, vers m/solo gitar, intro trompet, intro, vers
+2x intro gitar, vers, 2x intro gitar, vers, bro, 2x intro trompet, vers m/solo gitar, 2x intro trompet, vers
 
 _Chords:_ *intro*: `G D/F# C D G D/F# C D`;
 *vers*:

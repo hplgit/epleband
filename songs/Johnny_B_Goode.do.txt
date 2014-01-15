@@ -4,9 +4,11 @@
 __Johnny B Goode.__
 # #endif
 intro v/Joakim, vers, refreng, vers, refreng, vers m/solo (HP), refreng,
-vers, refreng
+vers, refreng.
 
 _Chords:_ *vers/refreng*: `A D A E A`
+
+Husk: tighte gitarer som følger trommene.
 
 # #ifdef LYRICS
 !bc

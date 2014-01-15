@@ -49,11 +49,7 @@
 
 \documentclass[%
 twoside,                 % oneside: electronic viewing, twoside: printing
-% #ifdef DOUBLE_SPACING
-draft,                   % or final
-% #else
-final,                   % or draft (marks overfull hboxes)
-% #endif
+final,                   % or draft (marks overfull hboxes, figures with paths)
 10pt]{article}
 
 % #elif LATEX_STYLE == "Springer_lncse"
@@ -349,16 +345,16 @@ Epleband 19/1-2013
 
 
 % #if LATEX_HEADING == "traditional"
-\date{Jan 12, 2014}
+\date{Jan 15, 2014}
 \maketitle
 % #elif LATEX_HEADING == "beamer"
-\date{Jan 12, 2014
+\date{Jan 15, 2014
 % <titlepage figure>
 }
 % #elif LATEX_HEADING == "titlepage"
 
 \ \\ [10mm]
-{\large\textsf{Jan 12, 2014}}
+{\large\textsf{Jan 15, 2014}}
 
 \end{center}
 \vfill
@@ -366,7 +362,7 @@ Epleband 19/1-2013
 
 % #else
 \begin{center}
-Jan 12, 2014
+Jan 15, 2014
 \end{center}
 
 \vspace{1cm}
@@ -375,7 +371,7 @@ Jan 12, 2014
 
 
 % #if LATEX_HEADING != "beamer"
-\tableofcontents
+
 
 \vspace{1cm} % after toc'
 % #endif
@@ -387,7 +383,7 @@ Jan 12, 2014
 % !split
 \paragraph{Proud Mary.}
 intro, vers, refreng, intro, vers, refreng, intro, vers m/solo, refreng,
-vers, refreng, refreng, ...
+intro, vers, refreng, refreng, ...
 
 \textbf{Chords:} \emph{intro}: \code{G E G E G E D C C6 C D A};
 \emph{vers}: \code{A E F#,}; \emph{refreng}: \code{A} (med to ganger \emph{rollin' on a river})
@@ -433,14 +429,16 @@ gjenta intro med div solo (HP)
 % !split
 \paragraph{Johnny B Goode.}
 intro v/Joakim, vers, refreng, vers, refreng, vers m/solo (HP), refreng,
-vers, refreng
+vers, refreng.
 
 \textbf{Chords:} \emph{vers/refreng}: \code{A D A E A}
+
+Husk: tighte gitarer som følger trommene.
 
 
 % !split
 \paragraph{Wonderful Tonight.}
-intro gitar, vers, intro gitar, vers, bro, intro trompet, vers m/solo gitar, intro trompet, intro, vers
+2x intro gitar, vers, 2x intro gitar, vers, bro, 2x intro trompet, vers m/solo gitar, 2x intro trompet, vers
 
 \textbf{Chords:} \emph{intro}: \code{G D/F# C D G D/F# C D};
 \emph{vers}:
@@ -465,10 +463,12 @@ intro gitar, vers, intro gitar, vers, bro, intro trompet, vers m/solo gitar, int
 
 % !split
 \paragraph{Brown Sugar.}
-4x intro1, 2x intro2, vers, refreng, 2x intro2, vers, refreng, 4x intro2 m/solo, refreng, vers, refreng, deretter gjentagelse av chords i refrenget
+4x intro1, 2x intro2, vers, refreng, 2x intro2, vers, refreng, 4x intro2 (\code{Eb-C...}) m/solo, refreng, vers, refreng, deretter gjentagelse av chords i refrenget (\code{G C}).
 
 \textbf{Chords:} \emph{intro1}: \code{C-G C-Csus}; \emph{intro2}: \code{Eb-Eb9-Eb}, \code{C-Csus}, \code{Ab Bb C};
 \emph{vers}: \code{C F C Bb C (Bb)}; \emph{refreng}: \code{G C G C}
+
+Husk: tighte gitarer som følger trommene.
 
 
 
@@ -486,35 +486,29 @@ intro, 2x vers, solo, vers.
 
 % !split
 % Compact title combined with compact info
-\paragraph{Slave.}
-3x vers+refreng, bridge, vers+refreng.
+\paragraph{Hey Joe.}
+% !split
+\paragraph{I Saw Her Standing There.}
+intro, 2x vers, bridge, vers, solo, bridge, vers
 
-\textbf{Chords:} \emph{vers}: \code{Em}; \emph{refreng}: \code{Am Em-Am-Em}
+\paragraph{Chords:}
+\emph{vers}: \code{C7 F7 C7 G7 C C7 F7 Fm7/Ab C7 G7 C7}; \emph{bridge}: \code{F7 G7 F7}
+
+
+
+
+
 
 
 
 
 % !split
 % Compact title combined with compact info
-\paragraph{Should I Stay Or Should I Go?.}
-\textbf{Chords:} \emph{vers}: 2x `D G D', 'G F G', 'D G D A', 'D G D';
-\emph{refreng}: `D G A5 G'
+\paragraph{Fortunate Son.}
+% vers, ...
 
 
-
-
-
-% !split
-\paragraph{I Saw Her Standing There.}
-intro, 2x vers, bridge, vers, solo, bridge, vers
-
-\paragraph{Chords:}
-\emph{vers}: \code{E7 A7 E7 B7 E E7 A7 C7 E7 B7 E7}; \emph{bridge}: \code{A7 B7 A7 E7}
-
-
-
-
-
+\textbf{Chords:} \emph{vers}: \code{F# E B F# E B F#}; \emph{refreng}: \code{2x F# C# B F#}
 
 
 
@@ -534,51 +528,10 @@ intro, 2x vers+refreng, bridge, solo (vers), refreng, bridge, vers, refreng.
 
 % !split
 % Compact title combined with compact info
-\paragraph{Fortunate Son.}
-% vers, ...
+\paragraph{Slave.}
+3x vers+refreng, bridge, vers+refreng.
 
-\textbf{Chords:} \emph{vers}: \code{G F C G F C G}; \emph{refreng}: \code{2x G D C G}
-
-
-
-
-
-% !split
-% Compact title combined with compact info
-\paragraph{Fritt liv.}
-% 4x vers, refreng, solo, 2x vers, ...
-
-\textbf{Chords:} \emph{vers}: \code{G D C G D C G}, 'C G C G C G D'
-
-
-
-
-% !split
-% Compact title combined with compact info
-\paragraph{Beggin'.}
-\textbf{Chords:} \code{D Bb Em7 A7}
-
-
-
-
-% !split
-% Compact title combined with compact info
-\paragraph{The Fox.}
-2x vers+refreng, bridge.
-
-\textbf{Chords:} \emph{vers}: \code{Bm A E}; \emph{refreng}: \code{Bm A E}, \emph{bridge}: 4x
-\code{G F#m Bm A F#m G A}.
-
-
-
-
-% !split
-% Compact title combined with compact info
-\paragraph{Wicked Game.}
-vers, ..
-
-\textbf{Chords:} \emph{vers}: \code{Bm A E}; \emph{refreng}: \code{Bm A E}.
-
+\textbf{Chords:} \emph{vers}: \code{Em}; \emph{refreng}: \code{Am Em-Am-Em}
 
 
 

@@ -15,7 +15,7 @@ path = "." # load local files
  * "HTML m/lyrics, tab & YouTube filmer, oppdelt": "${path}//epleband14_lyrics_tab_youtube.html"
  * "HTML kompakt": "${path}//epleband14.html"
  * "PDF kompakt": "${path}//epleband14.pdf"
- * "PDF m/lyrics & tab": "${path}//epleband14_lyrics_tab.pdf"
+ * "PDF m/lyrics & tab": "${path}//epleband14_lyrics.pdf"
  * "PDF kompakt for mobil": "${path}//epleband14_mobil.pdf"
 
 # Note: no BSC license for the mp3 files...can't be in repository

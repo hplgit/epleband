@@ -3,10 +3,12 @@
 # #else
 __Brown Sugar.__
 # #endif
-4x intro1, 2x intro2, vers, refreng, 2x intro2, vers, refreng, 4x intro2 m/solo, refreng, vers, refreng, deretter gjentagelse av chords i refrenget
+4x intro1, 2x intro2, vers, refreng, 2x intro2, vers, refreng, 4x intro2 (`Eb-C...`) m/solo, refreng, vers, refreng, deretter gjentagelse av chords i refrenget (`G C`).
 
 _Chords:_ *intro1*: `C-G C-Csus`; *intro2*: `Eb-Eb9-Eb`, `C-Csus`, `Ab Bb C`;
 *vers*: `C F C Bb C (Bb)`; *refreng*: `G C G C`
+
+Husk: tighte gitarer som følger trommene.
 
 # #ifdef LYRICS
 !bc
