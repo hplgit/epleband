@@ -14,6 +14,9 @@ TOC: on
 # #include "../songs/Kokken_Tor.do.txt"
 
 !split
+# #include "../songs/I_Saw_Her_Standing_There.do.txt"
+
+!split
 # #include "../songs/Black_Magic_Woman.do.txt"
 
 !split
@@ -29,19 +32,16 @@ TOC: on
 # #include "../songs/Wild_Horses.do.txt"
 
 !split
-# #include "../songs/Brown_Sugar.do.txt"
+# #include "../songs/Hey_Joe.do.txt"
 
 !split
 # #include "../songs/Sensitive_Kind.do.txt"
 
 !split
-# #include "../songs/Hey_Joe.do.txt"
-
-!split
-# #include "../songs/I_Saw_Her_Standing_There.do.txt"
-
-!split
 # #include "../songs/Fortunate_Son.do.txt"
+
+!split
+# #include "../songs/Brown_Sugar.do.txt"
 
 !split
 # #include "../songs/Back_In_The_USSR.do.txt"
