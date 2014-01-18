@@ -6,7 +6,7 @@
 __Happy Birthday.__
 # #endif
 
-_Chords:_ *vers*: `D Bm ...`; *refreng*: `3x A E F#m D`, `A E F#m A`
+_Chords:_ `G D D G G7 C G D G`
 
 # #ifdef LYRICS
 !bc
