@@ -1,0 +1,134 @@
+# #ifdef LYRICS
+# Big title
+======= Happy Birthday =======
+# #else
+# Compact title combined with compact info
+__Happy Birthday.__
+# #endif
+
+_Chords:_ *vers*: `D Bm ...`; *refreng*: `3x A E F#m D`, `A E F#m A`
+
+# #ifdef LYRICS
+!bc
+      A           E
+Happy Birthday to You
+
+      E*          A
+Happy Birthday to You
+
+      A7             D/D7
+Happy Birthday Dear (name)
+
+      A        E  A
+Happy Birthday to You.
+
+E*: can also do Dsus2=XX0230
+!ec
+
+===== The Story of Happy Birthday Song =====
+
+The melody of the song "Happy Birthday to You" comes from a song
+called "Good Morning to All", which was written and compiled by the
+Hill sisters, Patty and Mildred J. Hill, in 1893. They are citizens of
+the United States. Patty was a kindergarten principal in Louisville,
+Kentucky. Mildred was a pianist and composer. But many people believe
+that the Hill sisters most likely copied the tune and lyrical idea
+from other popular and substantially Similar Nineteenth-century songs
+that predated theirs, Including Horace Waters' "Happy Greetings to
+All", "Good Night to You All" also from 1858, "A Happy New Year to
+All" from 1875, and "A Happy Greeting to All", published 1885.  The
+combination of melody and lyrics in "Happy Birthday to You", first
+Appeared in print in 1912, and there could have been even earlier.
+
+Here are lyrics from the song "Good Morning to All"
+
+!bc
+Good morning to you,
+Good morning to you,
+Good morning, dear children,
+Good morning to all
+!ec
+(Lyrics by Patty Smith Hill)
+
+!bquote
+Believe it or not, this song is copyrighted from a hundred years ago. If you use this music in public in the US, you're meant to pay Time-Warner/AOL for each performance. They make 2 million US dollars a year from it. Naturally the two women who wrote the song are long dead. I imagine they never made a penny.
+
+("source": "http://winterstein.me.uk/misc/happy-birthday.htm")
+!equote
+# #endif
+
+# #ifdef MOVIES
+#===== Movies =====
+
+#MOVIE: [http://www.youtube.com/watch?v=oyBjfCMQwQA] Live 1993.
+
+# #endif
+
+# #ifdef TAB
+===== Tab =====
+
+Melody:
+
+!bc
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+--------------5-4-----------7-5------9-5-5-5-4-2-10-10-9-5-7-5---
+------5-5-7-5-------5-5-7-5------5-5-----------------------------
+-----------------------------------------------------------------
+
+-------------------
+-------------------
+-------------------
+-------------------
+-5-7-5-8vvvvvv-----
+-------------------
+!ec
+
+Rock power chords:
+
+!bc
+e--------------------------------------------------------------------
+b--------------------------------------------------------------------
+g---------------------------------9-6---------7-7-6------------------
+d-2-2-4-2-7-6---2-2-4-2-9-7---2-2-9-6-7-6-4---7-7-6-7-9-7------------
+a-2-2-4-2-7-6---2-2-4-2-9-7---2-2-7-4-7-6-4---5-5-4-7-9-7------------
+e-0-0-2-0-5-4---0-0-2-0-7-5---0-0-----5-4-2---------5-7-5------------
+!ec
+
+Some other version:
+
+!bc
+ G  G  A    G   C  B      G G   A    G   D  C
+  Happy Birthday to you,   Happy Birthday to you,
+|------------------------|------------------------|
+|-------------------0----|------------------------|
+|-0-0---2----0---0-------|-0-0---2----0---2--0----|
+|-0----------------------|-0--------------0-------|
+|-------0--------3--2----|-------0-----------3----|
+|-3----------------------|-3----------------------|
+
+  G  G  G    E   C    B  A   F  F  E    C   D  C
+  Happy Birthday dear ?  ?,  Happy Birthday to you.
+|-------3----0-------------|-1--1--0-----------0----|
+|---------------------0----|------------1---2--1----|
+|-0-0------------0-------2-|------------2---0--0----|
+|-0------------------------|-3-----------------2----|
+|----------------3----2--0-|-------------------3----|
+|-3------------------------|------------------------|
+!ec
+# #endif
+
+# #ifdef TAB_SOLO
+===== Tab solo guitar =====
+
+!bc
+e|--------------------------------|
+b|--------------------------------|
+g|------------------6-------------|
+d|----7----7h9----9------7--------|
+a|--------------------------------|
+D|--------------------------------|
+!ec
+# #endif

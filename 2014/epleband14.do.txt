@@ -49,6 +49,9 @@ TOC: on
 !split
 # #include "../songs/Slave.do.txt"
 
+!split
+# #include "../songs/Happy_Birthday_std.do.txt"
+
 # #ifdef EXTRA14
 !split
 # #include "../songs/Should_I_Stay_Or_Should_I_Go.do.txt"
