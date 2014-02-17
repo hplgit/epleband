@@ -40,26 +40,26 @@ mv epleband${year}.html epleband${year}_lyrics.html
 system doconce format html epleband${year} --html_style=bloodish --encoding=utf-8
 
 # Extended info PDF
-system doconce format pdflatex epleband${year} -DLYRICS
+system doconce format pdflatex epleband${year} -DLYRICS --latex_papersize=a4 --latex_font=helvetica
 doconce replace '\textbf{Chords' '\vspace{0.5cm}\par\noindent\textbf{Chords' epleband${year}.p.tex
 doconce replace '\section{' '\clearpage\section{' epleband${year}.p.tex
-system doconce ptex2tex epleband${year}  -DA4PAPER -DHELVETICA
+system doconce ptex2tex epleband${year}
 pdflatex epleband${year}
 pdflatex epleband${year}
 pdflatex epleband${year}
 mv epleband${year}.pdf epleband${year}_lyrics.pdf
 
 # Compact info PDF
-system doconce format pdflatex epleband${year}
+system doconce format pdflatex epleband${year}  --latex_papersize=a6 --latex_font=helvetica
 doconce replace '\textbf{Chords' '\vspace{0.5cm}\par\noindent\textbf{Chords' epleband${year}.p.tex
-system doconce ptex2tex epleband${year}  -DA6PAPER -DHELVETICA
+system doconce ptex2tex epleband${year}
 pdflatex epleband${year}
 mv epleband${year}.pdf epleband${year}_mobil.pdf
 
 # Compact info A6 PDF for mobile phone
-system doconce format pdflatex epleband${year}
+system doconce format pdflatex epleband${year} --latex_papersize=a6 --latex_font=helvetica
 doconce replace '\tableofcontents' '' epleband${year}.p.tex
-system doconce ptex2tex epleband${year}  -DA4PAPER -DHELVETICA
+system doconce ptex2tex epleband${year}
 pdflatex epleband${year}
 
 # Compact HTML
