@@ -1,5 +1,5 @@
 """
-Run doconce on howto.do.txt and produce
+Run doconce on songs.do.txt and produce
 various versions in various formats.
 """
 import os, shutil

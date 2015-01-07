@@ -1,0 +1,8 @@
+The source file is epleband13.do.txt.
+The various versions of the document are made by going to
+the parent directory and running make_epleband.sh 2013.
+Run clean.sh to remove all files that can be easily regenerated.
+
+The generated web and PDF documents are available from
+
+https://epleband.googlecode.com/git/2013/index.html

@@ -56,7 +56,7 @@ formats (A4 PDF via LaTeX, A6 PDF via LaTeX, HTML). A very handy
 feature of doconce is the ability to insert if statements as part
 of the document in order to leave out lyrics, movies, etc.
 These if statements are written with syntax very close to the C and
-C++ preprocessors (which should be well known to C or C++ programmers). 
+C++ preprocessors (which should be well known to C or C++ programmers).
 We introduce three variables (corresponding to macros
 in C and C++ preprocessors): `LYRICS`, `TAB`, and `MOVIES`.
 Lyrics are included if `LYRICS` is defined, guitar tabs are included
@@ -253,7 +253,8 @@ That's it! It remains to translate the doconce text to LaTeX and HTML
 and to specify how lyrics and movies are included or left out of the
 document. First we make an HTML version for the web, including lyrics
 and movies. That is accomplished by running the
-Unix following command in a terminal window:
+Unix following command in a terminal window (the `songs.do.txt` file is
+found in the `example` diretory)::
 
 !bc sys
 doconce format html songs.do.txt -DLYRICS -DMOVIES
