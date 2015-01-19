@@ -7,7 +7,7 @@ intro, vers, refreng, intro, vers, refreng, intro, vers m/solo, refreng,
 intro, vers, refreng, refreng, ...
 
 _Chords:_ *intro*: `G E G E G E D C C6 C D A`;
-*vers*: `A E F#,`; *refreng*: `A` (med to ganger *rollin' on a river*)
+*vers*: `A E F#m`; *refreng*: `A` (med to ganger *rollin' on a river*)
 
 # #ifdef LYRICS
 !bc
