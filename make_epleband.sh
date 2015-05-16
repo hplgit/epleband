@@ -1,10 +1,16 @@
 #!/bin/sh
+#
+# Usage: run from top directory
+#
 if [ $# -gt 0 ]; then
   year=$1
 else
   year=14
 fi
+
+# --------
 cd 20$year
+# --------
 
 function system {
   "$@"
