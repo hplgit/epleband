@@ -1,0 +1,107 @@
+# #ifdef LYRICS
+# Big title
+======= Beggin' =======
+# #else
+# Compact title combined with compact info
+__Beggin'.__
+# #endif
+
+_Chords:_ `D Bb Em7 A7`
+
+# #ifdef LYRICS
+!bc
+Dm
+Oooooh-
+         Bb            Em7    A7(let ring)
+Put your loving hand out, baby
+I'm beggin
+
+Dm      Bb        Em7
+Beggin, beggin you
+                A7
+Put your loving hand out baby
+Dm      Bb        Em7
+Beggin, beggin you
+                A7
+Put your loving hand out darlin
+
+--Continue like this throughout the song...--
+
+Ridin high, when I was king
+Played it hard and fast, cause I had everything
+Walked away, won me then
+But easy come and easy go
+And it would end
+
+[Yosef Wolde-Mariam]
+
+[Tshawe Baqwa:]
+Beggin, beggin you
+Put your loving hand out, baby
+Beggin, beggin you
+Put your loving hand out darlin
+
+[Yosef Wolde-Mariam:]
+I need you, (yeeah) to understand
+Tried so hard
+To be your man
+The kind of man you want in the end
+Only then can I begin to live again
+
+[Tshawe Baqwa:]
+An empty shell
+I used to be
+Shadow of my life
+Was hangin over me
+
+A broken man
+Without a throne
+Won't even stand the devils dance
+To win my soul
+
+[Yosef Wolde-Mariam]
+
+[Tshawe Baqwa:]
+Beggin, beggin you
+Put your loving hand out, baby
+Beggin, beggin you
+Put your loving hand out darlin
+
+[Yosef Wolde-Mariam:]
+I'm fighting hard
+To hold my own
+No, I just can't make it
+All alone
+
+I'm holdin on
+I can't fall back
+Now that big brass ring
+Is a shade of black
+
+[Tshawe Baqwa:]
+Beggin, beggin you
+Put your loving hand out, baby
+Beggin, beggin you
+Put your loving hand out darlin
+
+Beggin, beggin you
+Put your loving hand out, baby
+Beggin, beggin you
+Put your loving hand out darlin
+
+Beggin, beggin you
+Put your loving hand out, baby
+Beggin, beggin you
+Put your loving hand out darlin
+!ec
+# #endif
+
+# #ifdef MOVIES
+===== Movies =====
+
+MOVIE: [http://www.youtube.com/watch?v=7ync5XfNNPo] Original video.
+
+MOVIE: [http://www.youtube.com/watch?v=iWvP0DYV_5o] Live.
+
+# #endif
+

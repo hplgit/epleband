@@ -1,0 +1,79 @@
+# #ifdef LYRICS
+======= Proud Mary =======
+# #else
+__Proud Mary.__
+# #endif
+intro, vers, refreng, intro, vers, refreng, intro, vers m/solo, refreng,
+intro, vers, refreng, refreng, ...
+
+_Chords:_ *intro*: `G E G E G E D C C6 C D A`;
+*vers*: `A E F#m`; *refreng*: `A` (med to ganger *rollin' on a river*)
+
+# #ifdef LYRICS
+!bc
+Left a good job in the city
+Workin' for the man ev'ry night and day
+And I never lost one minute of sleepin'
+Worryin' 'bout the way things might have been
+
+Big wheel keep on turnin'
+Proud Mary keep on burnin'
+Rollin', rollin', rollin' on the river
+
+Cleaned a lot of plates in Memphis
+Pumped a lot of pain down in New Orleans
+But I never saw the good side of the city
+'Til I hitched a ride on a river boat queen
+
+Big wheel keep on turnin'
+Proud Mary keep on burnin'
+Rollin', rollin', rollin' on the river
+Rollin', rollin', rollin' on the river
+
+If you come down to the river
+Bet you gonna find some people who live
+You don't have to worry 'cause you have [if you got] no money
+People on the river are happy to give
+
+Big wheel keep on turnin'
+Proud Mary keep on burnin'
+Rollin', rollin', rollin' on the river
+Rollin', rollin', rollin' on the river
+!ec
+# #endif
+
+# #ifdef MOVIES
+===== Movies =====
+
+
+MOVIE: [http://www.youtube.com/watch?v=L-2Of9aznxg] Live (in D)
+# #endif
+
+# #ifdef TAB
+===== Tab =====
+
+Some tabs from "Ultimate Guitar": "http://tabs.ultimate-guitar.com/c/creedence_clearwater_revival/proud_mary_crd.htm", where the song is in D
+instead of A.
+
+!bc
+FILL 1:
+                                          / means slide into
+---------------------------------------| 1
+-----/7------7---5---3---5---3---------| 2
+---------------------------------------| 3
+-----/7------7---5---4---5---4---------| 4
+---------------------------------------| 5
+---------------------------------------| 6
+
+
+SOLO: Most of it is alternating between
+these two chords:  Bar your index finger at the 7th fret.
+
+---------------------------|
+---7---------8-------------|
+---7---------7-------------|
+---7---------9-------------|
+---------------------------|
+---------------------------|
+!ec
+# #endif

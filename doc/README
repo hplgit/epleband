@@ -1,0 +1,16 @@
+This directory contains documentation on how to use the DocOnce tool
+to document songs with tabs and videos for various devices: paper,
+iPad and mobile phone.
+Songs can be compiled in various versions, e.g., compact versions
+with two.line summary of chords and structure,
+intermediate lengths with lyrics and chords, and
+full lengths with tabs, videos, etc.
+
+howto.do.txt: source for how to document
+songs.do.txt: example on documenting a song
+
+pub: directory for compiled documents in various formats
+(essentially the howto document with pointers to various versions
+of the songs document). Start reading pub/howto.html, or to
+see a specific song in action read songs.html.
+

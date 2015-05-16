@@ -1,0 +1,36 @@
+# #ifdef LYRICS
+======= Johnny B Goode =======
+# #else
+__Johnny B Goode.__
+# #endif
+intro v/Joakim, vers, refreng, vers, refreng, vers m/solo (HP), refreng,
+vers, refreng.
+
+_Chords:_ *vers/refreng*: `A D A E A`
+
+Husk: tighte gitarer som følger trommene.
+
+# #ifdef LYRICS
+!bc
+Way down in Louisiana down to New Orleans
+Way back up in the woods among the evergreens
+There stood a log cabin made of earth and wood
+Where lived a country boy named Johnny B. Goode
+Who never ever learned to read or write so well
+But he could play a guitar just like he's ringin' a bell
+
+He used to carry his guitar in a gunny sack
+And sit beneath the trees by the railroad track
+The engineers would see him sittin' in the shade
+Strummin' to the rhythm that the driver made
+When people passed him by they would stop and say
+Oh my that little country boy sure can play
+
+Well his mama told him one day you will be a man
+You will be the leader of a big old band
+People gonna come from miles around
+To listen to your playin' till the sun goes down
+And one day maybe your name gonna be in lights
+Sayin' Johnny B Goode tonight
+!ec
+# #endif

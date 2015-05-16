@@ -1,0 +1,50 @@
+# #ifdef LYRICS
+# Big title
+======= Title =======
+# #else
+# Compact title combined with compact info
+__Title.__
+# #endif
+4x vers, refreng, solo, 2x vers, ...
+
+_Chords:_ *vers*: `D Bm ...`; *refreng*: `3x A E F#m D`, `A E F#m A`
+
+# #ifdef LYRICS
+!bc
+D Bm
+Words...
+!ec
+# #endif
+
+# #ifdef MOVIES
+===== Movies =====
+
+#MOVIE: [http://www.youtube.com/watch?v=oyBjfCMQwQA] Live 1993.
+
+# #endif
+
+# #ifdef TAB
+===== Tab =====
+
+!bc
+Riff:  E------------------------------------|
+       B------------------------------------|
+       G-------------------2----------------|
+       D--------2/4--2--4-----2/4--4--2-----|
+       A---------------------------------4--|
+       E--2--2------------------------------|
+!ec
+# #endif
+
+# #ifdef TAB_SOLO
+===== Tab solo guitar =====
+
+!bc
+e|--------------------------------|
+b|--------------------------------|
+g|------------------6-------------|
+d|----7----7h9----9------7--------|
+a|--------------------------------|
+D|--------------------------------|
+!ec
+# #endif

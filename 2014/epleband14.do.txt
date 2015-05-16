@@ -1,0 +1,71 @@
+TITLE: Epleband 19/1-2013
+# #if FORMAT in ("latex", "pdflatex")
+#AUTHOR: Jan, Kristian, Erik, Joakim, Tore Magnus, Hans Petter
+AUTHOR: Hans Petter++
+# #endif
+DATE: today
+
+TOC: on
+
+!split
+# #include "../songs/Proud_Mary.do.txt"
+
+!split
+# #include "../songs/Kokken_Tor.do.txt"
+
+!split
+# #include "../songs/I_Saw_Her_Standing_There.do.txt"
+
+!split
+# #include "../songs/Black_Magic_Woman.do.txt"
+
+!split
+# #include "../songs/Wish_You_Were_Here.do.txt"
+
+!split
+# #include "../songs/Johnny_B_Goode.do.txt"
+
+!split
+# #include "../songs/Wonderful_Tonight.do.txt"
+
+!split
+# #include "../songs/Wild_Horses.do.txt"
+
+!split
+# #include "../songs/Hey_Joe.do.txt"
+
+!split
+# #include "../songs/Sensitive_Kind.do.txt"
+
+!split
+# #include "../songs/Fortunate_Son.do.txt"
+
+!split
+# #include "../songs/Brown_Sugar.do.txt"
+
+!split
+# #include "../songs/Back_In_The_USSR.do.txt"
+
+!split
+# #include "../songs/Slave.do.txt"
+
+!split
+# #include "../songs/Happy_Birthday_std.do.txt"
+
+# #ifdef EXTRA14
+!split
+# #include "../songs/Should_I_Stay_Or_Should_I_Go.do.txt"
+
+!split
+# #include "../songs/Fritt_liv.do.txt"
+
+!split
+# #include "../songs/Beggin.do.txt"
+
+!split
+# #include "../songs/The_Fox.do.txt"
+
+!split
+# #include "../songs/Wicked_Game.do.txt"
+# #endif
+

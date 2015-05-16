@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Automatically generated HTML file from Doconce source
+(http://code.google.com/p/doconce/)
+-->
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Doconce: http://code.google.com/p/doconce/" />
+
+
+<style type="text/css">
+    /* Color definitions:  http://www.december.com/html/spec/color0.html
+       CSS examples:       http://www.w3schools.com/css/css_examples.asp */
+
+    body {
+      margin-top: 1.0em;
+      background-color: #ffffff;
+      font-family: Helvetica, Arial, FreeSans, san-serif;
+      color: #000000;
+    }
+    h1 { font-size: 1.8em; color: #1e36ce; }
+    h2 { font-size: 1.5em; color: #1e36ce; }
+    h3 { color: #1e36ce; }
+    a { color: #1e36ce; text-decoration:none; }
+    tt { font-family: "Courier New", Courier; }
+    pre { background: #ededed; color: #000; padding: 15px;}
+    p { text-indent: 0px; }
+    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+    p.caption { width: 80%; font-style: normal; text-align: left; }
+    hr.figure { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+
+    .notice, .summary, .warning, .hint, .question {
+    border: 1px solid; margin: 10px 0px; padding:15px 10px 15px 50px;
+    background-repeat: no-repeat; background-position: 10px center;
+    }
+    .notice   { color: #00529B; background-color: #BDE5F8;
+                background-image: url('https://doconce.googlecode.com/hg/bundled/html_images/Knob_Message.png'); }
+    .summary  { color: #4F8A10; background-color: #DFF2BF;
+                background-image:url('https://doconce.googlecode.com/hg/bundled/html_images/Knob_Valid_Green.png'); }
+    .warning  { color: #9F6000; background-color: #FEEFB3;
+                background-image: url('https://doconce.googlecode.com/hg/bundled/html_images/Knob_Attention.png'); }
+    .hint     { color: #00529B; background-color: #BDE5F8;
+                background-image: url('https://doconce.googlecode.com/hg/bundled/html_images/Knob_Info.png'); }
+    .question { color: #4F8A10; background-color: #DFF2BF;
+                background-image:url('https://doconce.googlecode.com/hg/bundled/html_images/Knob_Forward.png'); }
+
+</style>
+
+</head>
+<body>
+
+<!-- ------------------- main content ------------------------>
+    
+<title>How to document songs in a flexible way</title>
+
+<center><h1>How to document songs in a flexible way</h1></center>  <! -- document title -->
+
+<p>
+<! -- author(s) -->
+
+<center>
+<b>Hans Petter Langtangen</b> 
+</center>
+
+
+<p>
+<!-- institution(s) -->
+
+
+
+<p>
+<center><h4>Feb 4, 2013</h4></center> <!-- date -->
+<p>
+<b>Summary.</b> The Internet is full of information about a song: chords, lyrics, guitar
+tabs, YouTube instructions, YouTube performances. In addition one may have
+notes on paper. The aim of this note is to show how one can collect all
+this information in one document and compile this document in various
+versions and formats to fulfill various needs.
+
+<p>
+
+<h2>Problem setting  <a name="___sec0"></a></h2>
+<p>
+As example, we work with the song Johnny B Goode. We have collected
+
+<p>
+
+<ul>
+ <li> Lyrics in plain text, with chords in Bb, but hand-edited to A</li>
+ <li> Guitar tab for the opening solo and the riff in the chorus</li>
+ <li> Various YouTube instructions for how to play guitar</li>
+ <li> Various YouTube performances</li>
+</ul>
+
+We want to print out the song information in three ways:
+
+<p>
+
+<ol>
+<li> As a very <a href="songs_compact.html">compact piece of text</a>,
+   summarizing the song elements:
+   intro, verses, chorus, solo, etc., and listing the basic chords.</li>
+<li> As 1, but <a href="songs_lyrics.html">adding lyrics</a>.</li>
+<li> As 2, but <a href="songs.html">adding YouTube movies</a>.</li>
+</ol>
+
+The song information is to be made available in the following formats:
+
+<p>
+
+<ul>
+ <li> PDF (from LaTeX) for printing (A4 format)</li>
+ <li> PDF (from LaTeX) for viewing on phones and tablets (A6 format)</li>
+ <li> HTML for viewing in a web browser</li>
+</ul>
+
+Three ways of organizing the information and three output formats result
+in nine combinations. These combinations are most conveniently reached
+from a web page with links to each version of the song document, typically
+something like
+
+<p>
+
+<ul>
+ <li> HTML compact: <a href="songs_compact.html"><tt>songs_compact.html</tt></a></li>
+ <li> HTML w/lyrics: <a href="songs_lyrics.html"><tt>songs_lyrics.html</tt></a></li>
+ <li> HTML w/everything: <a href="songs.html"><tt>songs.html</tt></a></li>
+ <li> LaTeX compact, A4: <a href="songs_compact_A4.pdf"><tt>songs_compact_A4.pdf</tt></a></li>
+ <li> LaTeX compact, A6: <a href="songs_compact_A6.pdf"><tt>songs_compact_A6.pdf</tt></a></li>
+ <li> LaTeX w/lyrics, A4: <a href="songs_lyrics_A4.pdf"><tt>songs_lyrics_A4.pdf</tt></a></li>
+ <li> LaTeX w/lyrics, A6: <a href="songs_lyrics_A6.pdf"><tt>songs_lyrics_A6.pdf</tt></a></li>
+ <li> LaTeX w/everything, A4: <a href="songs_A4.pdf"><tt>songs_A4.pdf</tt></a></li>
+ <li> LaTeX w/everything, A6: <a href="songs_A6.pdf"><tt>songs_A6.pdf</tt></a></li>
+</ul>
+
+<h2>How to write the document  <a name="___sec1"></a></h2>
+<p>
+We write the document in plain text using the <a href="http://code.google.com/p/doconce/">doconce</a> tool to generate various
+formats (A4 PDF via LaTeX, A6 PDF via LaTeX, HTML). A very handy
+feature of doconce is the ability to insert if statements as part
+of the document in order to leave out lyrics, movies, etc.
+These if statements are written with syntax very close to the C and
+C++ preprocessors (which should be well known to C or C++ programmers). 
+We introduce three variables (corresponding to macros
+in C and C++ preprocessors): <tt>LYRICS</tt>, <tt>TAB</tt>, and <tt>MOVIES</tt>.
+Lyrics are included if <tt>LYRICS</tt> is defined, guitar tabs are included
+if <tt>TAB</tt> is defined, and movies are included if <tt>MOVIES</tt> is defined.
+
+<p>
+The document containing songs needs a title, author, and date, written
+as follows in the doconce syntax in a <em>plain text file</em> using a <a href="http://en.wikipedia.org/wiki/Text_editor">plain
+text editor</a>
+such as Notepad, Gedit, Emacs, or Vim:
+
+<p>
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">TITLE: Collection of songs
+AUTHOR: Hans Petter Langtangen
+DATE: today
+</pre></div>
+<p>
+
+Each song starts with a headline with the name of the song. This
+headline is big and visible if we include lyrics, but in the compact
+format (recognized as <tt>LYRICS</tt> being undefined) the headline is just a
+paragraph heading. Right after comes the quick song overview in terms
+of intros, verses, chorus, etc. This expressed as follows in doconce:
+
+<p>
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"># #ifdef LYRICS
+# Big title
+======= Johnny B Goode =======
+# #else
+# Compact title
+__Johnny B Goode.__
+# #endif
+intro, verse, chorus, verse, chorus, verse with solo, chorus, verse, chorus.
+</pre></div>
+<p>
+Lines starting with <tt>#</tt> are comment lines and ignored in the output.
+
+<p>
+The next ingredient is a compact listing of the chords. Let us start
+with the word "Chords:" in boldface and the chords formatted as
+verbatim (mono font) text:
+
+<p>
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">_Chords:_ `A D A E A`
+</pre></div>
+<p>
+Doconce uses underscores to indicate boldface, asterisks to indicate
+italic (emphasized) font, and backticks to specify verbatim inline text.
+
+<p>
+The next element of the song is the lyrics, usually with chords above.
+It is very important to typeset lyrics with chords as verbatim text,
+otherwise the chords will not match the lyrics at the right places!
+Blocks of verbatim text are surrounded by lines containing <tt>!bc</tt>
+("begin code") and <tt>!ec</tt> ("end code"):
+
+<p>
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #BC7A00"># #ifdef LYRICS</span>
+<span style="color: #666666">|</span>bc
+    A
+Way down in Louisiana down to New Orleans
+Way back up in the woods among the evergreens
+      D
+There stood a log cabin made of earth and wood
+      A
+Where lived a country boy named Johnny B. Goode
+    E
+Who never ever learned to read or write so well
+             A
+But he could play a guitar just like he&#39;s ringin&#39; a bell
+
+A      [Riff1]
+Go Go
+                [Riff1]
+Go Johnny Go Go
+                D   [Riff1]
+Go Johnny Go Go Go
+             A   [Riff1]
+Go Johnny Go Go
+                E  [Riff1]
+Go Johnny Go Go Go
+                 A
+Johnny B. Goode
+<span style="color: #BC7A00"># #endif</span>
+<span style="color: #666666">|</span>ec
+</pre></div>
+<p>
+
+The next part of the song document
+consists of guitar tabs for the intro and the solo.
+
+<p>
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #BC7A00"># #ifdef TAB</span>
+
+<span style="color: #666666">=====</span> Guitar tabs <span style="color: #666666">=====</span>
+
+Tab Pro <span style="color: #BA2121">&quot;tp.ultimate-guitar.com&quot;</span><span style="color: #666666">:</span> <span style="color: #BA2121">&quot;http://tp.ultimate-guitar.com/c/chuck_berry/johnny_b_goode_tab_online.html#3477d&quot;</span>
+
+Tab taken from URL<span style="color: #666666">:</span> <span style="color: #BA2121">&quot;http://tablaturas.buanzo.com.ar/index.php?ident=6707407&quot;</span>
+
+<span style="color: #666666">|</span>bc
+
+Intro (NOTE<span style="color: #666666">:</span> Bb<span style="color: #666666">!</span>)
+
+   NC                                            Bb
+e<span style="color: #666666">|----------5/6-6-6-5/6-6-6-6-6-6------------------------------------|</span>
+B<span style="color: #666666">|-------6--5/6-6-6-5/6-6-6-6-6-6-9-8-6-6----------------------------|</span>
+G<span style="color: #666666">|---6</span>h7<span style="color: #666666">--------------------------------6</span>h7<span style="color: #666666">--------------------------|</span>
+D<span style="color: #666666">|-8----------------------------------------8-6--8-8-8-8-8-8-8-8-----|</span>
+A<span style="color: #666666">|-----------------------------------------------8-8-8-8-8-8-8-8-----|</span>
+E<span style="color: #666666">|-------------------------------------------------------------------|</span>
+
+                     Eb
+e<span style="color: #666666">|--------------------------------6----------------------------------|</span>
+B<span style="color: #666666">|-6-----6----------------6-------6-------6-------6-------6----------|</span>
+G<span style="color: #666666">|-6-7-8-6</span>h7<span style="color: #666666">----8</span>b9<span style="color: #666666">--8</span>b10<span style="color: #666666">---8</span>b10<span style="color: #666666">----8</span>b10<span style="color: #666666">----8</span>b10<span style="color: #666666">-----8</span>b10<span style="color: #666666">------------|</span>
+D<span style="color: #666666">|------------8------------------------------------------------------|</span>
+A<span style="color: #666666">|-------------------------------------------------------------------|</span>
+E<span style="color: #666666">|-------------------------------------------------------------------|</span>
+<span style="color: #666666">|</span>ec
+<span style="color: #BC7A00"># #endif</span>
+</pre></div>
+<p>
+
+We can also insert figures of scores or tabs using doconce's
+<tt>FIGURE:</tt> command:
+
+<p>
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #A0A000">FIGURE:</span> [Johnny_B_Goode_mid_solo.png, width<span style="color: #666666">=900</span>] Mid solo.
+</pre></div>
+<p>
+The <tt>width</tt> parameter specifies the width in pixels of the figure in HTML
+output. All info about the figure must appear <em>on a single line</em>.
+The <tt>width</tt> parameter and the figure caption are optional. The result of
+the above <tt>FIGURE:</tt> command becomes
+
+<p>
+
+<center> <! -- figure -->
+<hr class="figure">
+<center><p class="caption">Figure 1:  Mid solo. </p></center>
+<p><img src="Johnny_B_Goode_mid_solo.png" align="bottom" width=900></p>
+</center>
+
+<p>
+
+The final part of this song is a list of YouTube movies. We first list
+instructional videos and then various performances by famous artists.
+A nice feature of doconce is that YouTube movies are automatically
+embedded in web pages. In the LaTeX output, YouTube movies appear
+with the YouTube URL is a link text (you can click on the link in PDF,
+but of course not in a printed version of the song document).
+
+<p>
+A movie is specified as follows in doconce:
+
+<p>
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=WjtpaD3g_5k] Very slow instruction, part I.</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=t793lHAw33Y] Very slow instruction, part II.</span>
+</pre></div>
+<p>
+That is, the keyword <tt>MOVIE:</tt> followed by the movie file or URL in brackets and then an optional movie caption. All this information must appear on <em>a single line</em> followed by a <em>blank line</em>.
+In the present example we write the following doconce code (headings
+of subsections are indicated by 5 <tt>=</tt> characters on each side of the title):
+
+<p>
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #BC7A00"># #ifdef MOVIES</span>
+
+<span style="color: #666666">=====</span> Guitar instructions <span style="color: #666666">=====</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=vSVIsGWrvvg] Good instruction.</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=4Hl4ueIk0zQ] Mostly backing riff.</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=WjtpaD3g_5k] Very slow instruction, part I.</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=t793lHAw33Y] Very slow instruction, part II.</span>
+
+<span style="color: #BC7A00"># The movie caption can also be left out:</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=a4EDp5CxsLw]</span>
+
+<span style="color: #666666">=====</span> Performances <span style="color: #666666">=====</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=S1i5coU-0_Q]</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=dYTqzcc-WNk] Chuck Berry, John Lennon.</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=5YcPtitpLkk] Chuck Berry, Julian Lennon, Keith Richards.</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=I8JULmUlGDA] Original recording.</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=27njFSSlLGY] Chuck Berry, 2009.</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=u8wzFzhr4G8] The Beatles.</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=HlPVoMHRtyg] Chuck Berry, Bruce Springsteen.</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=sYtc1Me8WUg] Jeff Beck, Carlos Santana, Steve Lukather.</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=q2BdQj0eSzU] Jimi Hendrix.</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=BG7UL9NfP8c] Elvis.</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=OA6MgIzgUj0] No need for guitars.</span>
+
+<span style="color: #A0A000">MOVIE:</span> [http<span style="color: #666666">:</span><span style="color: #408080; font-style: italic">//www.youtube.com/watch?v=LDJ7ydnOeY0] Amateur band.</span>
+<span style="color: #BC7A00"># #endif</span>
+</pre></div>
+<p>
+
+That's it! It remains to translate the doconce text to LaTeX and HTML
+and to specify how lyrics and movies are included or left out of the
+document. First we make an HTML version for the web, including lyrics
+and movies. That is accomplished by running the
+Unix following command in a terminal window:
+
+<p>
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">doconce format html songs.do.txt -DLYRICS -DMOVIES
+</pre></div>
+<p>
+The name of the doconce file is <tt>songs.do.txt</tt>, and <tt>-DLYRICS</tt> means
+that we define the preprocessor variable <tt>LYRICS</tt> to be true such that
+tests of the form <tt>#ifdef LYRICS</tt> become true.
+
+<p>
+The result of the above <tt>doconce</tt> command is a file <tt>songs.html</tt> that
+is immediately available for a web browser. LaTeX output requires
+some more steps:
+
+<p>
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">doconce format latex songs.do.txt -DLYRICS -DMOVIES
+doconce ptex2tex songs -DA4PAPER
+pdflatex songs
+</pre></div>
+<p>
+The result is a PDF file <tt>songs.pdf</tt>. A6 paper can be specified by
+giving the option <tt>-DA6PAPER</tt> to <tt>doconce ptex2tex</tt>. The result
+of the latter command is a plain LaTeX file named <tt>songs.tex</tt>.
+
+<p>
+It is tedious to make all the different format so we may write
+a little Python script to automate the job of producing all the documents:
+
+<p>
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #BA2121; font-style: italic">&quot;&quot;&quot;</span>
+<span style="color: #BA2121; font-style: italic">Run doconce on howto.do.txt and produce</span>
+<span style="color: #BA2121; font-style: italic">various versions in various formats.</span>
+<span style="color: #BA2121; font-style: italic">&quot;&quot;&quot;</span>
+<span style="color: #008000; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">os</span><span style="color: #666666">,</span> <span style="color: #0000FF; font-weight: bold">shutil</span>
+
+output <span style="color: #666666">=</span> []
+<span style="color: #008000">file</span> <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;songs&#39;</span>
+formats <span style="color: #666666">=</span> [<span style="color: #BA2121">&#39;html&#39;</span>, <span style="color: #BA2121">&#39;latex&#39;</span>]
+latex_formats <span style="color: #666666">=</span> [<span style="color: #BA2121">&#39;-DA4PAPER&#39;</span>, <span style="color: #BA2121">&#39;-DA6PAPER&#39;</span>]
+prepro_variables <span style="color: #666666">=</span> [<span style="color: #BA2121">&#39;&#39;</span>, <span style="color: #BA2121">&#39;-DLYRICS&#39;</span>, <span style="color: #BA2121">&#39;-DLYRICS -DTAB -DMOVIES&#39;</span>]
+
+<span style="color: #008000; font-weight: bold">for</span> format <span style="color: #AA22FF; font-weight: bold">in</span> formats:
+    <span style="color: #008000; font-weight: bold">for</span> prepro <span style="color: #AA22FF; font-weight: bold">in</span> prepro_variables:
+        <span style="color: #008000; font-weight: bold">if</span> prepro <span style="color: #666666">==</span> <span style="color: #BA2121">&#39;&#39;</span>:
+            filename <span style="color: #666666">=</span> <span style="color: #008000">file</span> <span style="color: #666666">+</span> <span style="color: #BA2121">&#39;_compact&#39;</span>
+        <span style="color: #008000; font-weight: bold">elif</span> prepro <span style="color: #666666">==</span> <span style="color: #BA2121">&#39;-DLYRICS&#39;</span>:
+            filename <span style="color: #666666">=</span> <span style="color: #008000">file</span> <span style="color: #666666">+</span> <span style="color: #BA2121">&#39;_lyrics&#39;</span>
+        <span style="color: #008000; font-weight: bold">else</span>:
+            filename <span style="color: #666666">=</span> <span style="color: #008000">file</span>
+        <span style="color: #008000; font-weight: bold">if</span> <span style="color: #008000">file</span> <span style="color: #666666">!=</span> filename:
+            shutil<span style="color: #666666">.</span>copy(<span style="color: #008000">file</span> <span style="color: #666666">+</span> <span style="color: #BA2121">&#39;.do.txt&#39;</span>, filename <span style="color: #666666">+</span> <span style="color: #BA2121">&#39;.do.txt&#39;</span>)
+        cmd <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;doconce format </span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121"> </span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121"> </span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121">&#39;</span> <span style="color: #666666">%</span> (format, filename, prepro)
+        <span style="color: #008000; font-weight: bold">print</span> cmd
+        os<span style="color: #666666">.</span>system(cmd)  <span style="color: #408080; font-style: italic"># Run command</span>
+
+        <span style="color: #008000; font-weight: bold">if</span> format <span style="color: #666666">==</span> <span style="color: #BA2121">&#39;latex&#39;</span>:
+            <span style="color: #008000; font-weight: bold">for</span> latex_format <span style="color: #AA22FF; font-weight: bold">in</span> latex_formats:
+                filename2 <span style="color: #666666">=</span> filename <span style="color: #666666">+</span> <span style="color: #BA2121">&#39;_&#39;</span> <span style="color: #666666">+</span> latex_format[<span style="color: #666666">2</span>:<span style="color: #666666">4</span>]
+                shutil<span style="color: #666666">.</span>copy(filename <span style="color: #666666">+</span> <span style="color: #BA2121">&#39;.p.tex&#39;</span>, filename2 <span style="color: #666666">+</span> <span style="color: #BA2121">&#39;.p.tex&#39;</span>)
+                cmd <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;doconce ptex2tex </span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121"> </span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121">&#39;</span> <span style="color: #666666">%</span> (filename2, latex_format)
+                <span style="color: #008000; font-weight: bold">print</span> cmd
+                os<span style="color: #666666">.</span>system(cmd)
+                cmd <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;pdflatex </span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121">; pdflatex </span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121">&#39;</span> <span style="color: #666666">%</span> \
+                      (filename2, filename2, filename2)
+                os<span style="color: #666666">.</span>system(cmd)
+                output<span style="color: #666666">.</span>append(<span style="color: #BA2121">&#39; * URL: &quot;</span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121">.pdf&quot;&#39;</span> <span style="color: #666666">%</span> filename2)
+        <span style="color: #008000; font-weight: bold">elif</span> format <span style="color: #666666">==</span> <span style="color: #BA2121">&#39;html&#39;</span>:
+            output<span style="color: #666666">.</span>append(<span style="color: #BA2121">&#39; * URL: &quot;</span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121">.html&quot;&#39;</span> <span style="color: #666666">%</span> filename)
+<span style="color: #008000; font-weight: bold">print</span> <span style="color: #BA2121">&#39;</span><span style="color: #BB6622; font-weight: bold">\n</span><span style="color: #BA2121">&#39;</span><span style="color: #666666">.</span>join(output)
+</pre></div>
+<p>
+
+
+<h4>Personal comments  <a name="___sec2"></a></h4>
+<p>
+When such a song is played in a band, different members of the band may
+want to annotate the document with their personal notes on how they
+play. Suppose John wants to make some comments which are of interest
+only to him. This is easily accomplished by adding a preprocessor
+variable, say <tt>John</tt>, and insert tests of the form
+
+<p>
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #BC7A00"># #ifdef John</span>
+Here I play an A9 in the standard barre shape on the last beat before
+moving to a D6<span style="color: #666666">-</span>D7 on the <span style="color: #666666">7</span>th fret.
+<span style="color: #BC7A00"># #endif</span>
+</pre></div>
+<p>
+John can now compile a version with lyrics, gitar tabs, and his
+annotations:
+
+<p>
+
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">doconce format html songs -DLYRICS -DTAB -DJohn
+</pre></div>
+<p>
+Copying the result <tt>songs.html</tt> and figure files
+to Dropbox makes it easy to sync with
+an iPhone, iPad, or similar. Just click on the file in the Dropbox app
+on the handheld device and the web browser will show the document.
+
+<!-- ------------------- end of main content ----------------->
+</body>
+</html>
+    
+
