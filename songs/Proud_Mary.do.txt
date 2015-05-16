@@ -75,5 +75,6 @@ these two chords:  Bar your index finger at the 7th fret.
 ---7---------9-------------|
 ---------------------------|
 ---------------------------|
+
 !ec
 # #endif
